@@ -2,11 +2,11 @@
 
 
 
-## \# Data Processing and EDA
+## # Data Processing and EDA
 
 
 
-\## 1. Feature Engineering
+## 1. Feature Engineering
 
 The process of transforming raw input variables into higher-quality representations to improve model performance.
 
@@ -26,7 +26,7 @@ Advanced: KNN imputation, MICE (iterative imputer) for MAR (Missing At Random) c
 
 
 
-\### Imbalanced Dataset \& SMOTE
+### Imbalanced Dataset & SMOTE
 
 
 
@@ -34,7 +34,7 @@ Class imbalance occurs when target class distribution is skewed (e.g., 95% class
 
 
 
-\*\*SMOTE\*\* (Synthetic Minority Oversampling Technique) generates synthetic feature vectors by interpolating between a minority sample and its k-nearest neighbors in feature space — rather than simply duplicating existing samples (naive oversampling).
+**SMOTE** (Synthetic Minority Oversampling Technique) generates synthetic feature vectors by interpolating between a minority sample and its k-nearest neighbors in feature space — rather than simply duplicating existing samples (naive oversampling).
 
 Outlier Handling
 
@@ -44,15 +44,15 @@ Outliers are data points lying far outside the typical distribution, caused by m
 
 
 
-\*\*Detection methods:\*\* IQR method flags values outside \[Q1 − 1.5×IQR, Q3 + 1.5×IQR]. Z-score flags values beyond ±3σ. Treatment options: cap/winsorize, transform (log, sqrt), or drop. 
+**Detection methods:** IQR method flags values outside [Q1 − 1.5×IQR, Q3 + 1.5×IQR]. Z-score flags values beyond ±3σ. Treatment options: cap/winsorize, transform (log, sqrt), or drop. 
 
 
 
-\---
+---
 
 
 
-\## Data Encoding
+## Data Encoding
 
 ML models require numerical input — categorical features must be encoded:
 
@@ -60,33 +60,33 @@ MethodUse CaseNotesOne-Hot Encoding (OHE)Nominal (unordered)Creates binary colum
 
 
 
-\---
+---
 
 
 
-\## 2. EDA (Exploratory Data Analysis)
+## 2. EDA (Exploratory Data Analysis)
 
 Statistical and visual profiling of a dataset prior to modeling to uncover distributions, correlations, and anomalies.
 
 
 
-\---
+---
 
 
 
-\## 3. Dataset-specific EDA from your syllabus
+## 3. Dataset-specific EDA from your syllabus
 
 Red Wine dataset — target is quality (integer 3–8). EDA focus: correlation of physicochemical features (alcohol, volatile acidity, sulphates) with quality score. Check for class imbalance (very few 3s and 8s).
 
-Flight Price dataset — target is price (continuous). EDA focus: feature engineering on duration, stops, airline (categorical encoding), and departure\_time. Key task: handle mixed-type columns and extract datetime features before regression.
+Flight Price dataset — target is price (continuous). EDA focus: feature engineering on duration, stops, airline (categorical encoding), and departure_time. Key task: handle mixed-type columns and extract datetime features before regression.
 
 
 
-\---
+---
 
 
 
-\## 4. ML Workflow context
+## 4. ML Workflow context
 
 Preprocessing and EDA sit between raw data collection and model training:
 
@@ -96,11 +96,11 @@ Key principle: EDA informs feature engineering decisions — you can't know whic
 
 
 
-## \# Simple Linear Regression
+## # Simple Linear Regression
 
 
 
-\## 📐 Regression in Supervised ML
+## 📐 Regression in Supervised ML
 
 Supervised ML means the model learns from labeled data — you give it inputs and the correct outputs, and it learns the pattern.
 
@@ -108,11 +108,11 @@ Regression is used when the output is a continuous number (e.g., house price, te
 
 
 
-\---
+---
 
 
 
-\## 1. Simple Linear Regression
+## 1. Simple Linear Regression
 
 Models the relationship between one input (X) and one output (Y) as a straight line:
 
@@ -128,11 +128,11 @@ Example: Predicting house price based only on size.
 
 
 
-\---
+---
 
 
 
-\## 2. Simple Linear Regression Equations
+## 2. Simple Linear Regression Equations
 
 The best-fit line is found by calculating:
 
@@ -148,11 +148,11 @@ These formulas minimize the error between predicted and actual values.
 
 
 
-\---
+---
 
 
 
-\## 3. Cost Function
+## 3. Cost Function
 
 Measures how wrong your model's predictions are. For regression, the most common is Mean Squared Error (MSE):
 
@@ -166,11 +166,11 @@ The goal of training is to minimize this cost.
 
 
 
-\---
+---
 
 
 
-\## 4. Convergence Algorithms (Gradient Descent)
+## 4. Convergence Algorithms (Gradient Descent)
 
 This is the algorithm used to minimize the cost function iteratively:
 
@@ -190,11 +190,11 @@ Repeat until cost stops decreasing
 
 
 
-\---
+---
 
 
 
-\## 5. Multiple Linear Regression
+## 5. Multiple Linear Regression
 
 Same idea, but with multiple input features (X1, X2, X3...):
 
@@ -208,11 +208,11 @@ Example: Predicting house price using size, location, AND number of rooms.
 
 
 
-\---
+---
 
 
 
-\## 6. Performance Metrics
+## 6. Performance Metrics
 
 MetricFormulaMeaningMAE(1/n)Σ|Ypred - Yactual|Average absolute errorMSE(1/n)Σ(Ypred - Yactual)²Penalizes large errors moreRMSE√MSESame unit as output, easier to interpret
 
@@ -220,17 +220,17 @@ Lower values = better model.
 
 
 
-\## 7. Overfitting \& Underfitting
+## 7. Overfitting & Underfitting
 
 ProblemMeaningFixUnderfittingModel too simple, misses patternsUse more features / complex modelOverfittingModel memorizes training data, fails on new dataRegularization, more dataGood fitGeneralizes well to unseen data✅ Goal
 
 
 
-\---
+---
 
 
 
-\## 8. Polynomial Regression
+## 8. Polynomial Regression
 
 When the relationship between X and Y is curved, not linear:
 
