@@ -97,7 +97,6 @@ Key principle: EDA informs feature engineering decisions — you can't know whic
 Supervised ML means the model learns from labeled data — you give it inputs and the correct outputs, and it learns the pattern.
 Regression is used when the output is a continuous number (e.g., house price, temperature).
 
----
 
 ## 1. Simple Linear Regression
 
@@ -108,7 +107,7 @@ where m = slope (weight) and b = intercept (bias).
 
 Example: Predicting house price based only on size.
 
----
+
 
 ## 2. Simple Linear Regression Equations
 
