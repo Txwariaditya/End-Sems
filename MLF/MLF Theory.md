@@ -60,7 +60,7 @@ MethodUse CaseNotesOne-Hot Encoding (OHE)Nominal (unordered)Creates binary colum
 
 Statistical and visual profiling of a dataset prior to modeling to uncover distributions, correlations, and anomalies.
 
-
+![alt text](image.png)
 
 ---
 
