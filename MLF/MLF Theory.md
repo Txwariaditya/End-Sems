@@ -1,6 +1,4 @@
-# MLF Theory
-
-##  Data Processing and EDA
+#  Data Processing and EDA
 
 
 
@@ -94,7 +92,7 @@ Key principle: EDA informs feature engineering decisions — you can't know whic
 
 
 
-## 📐 Regression in Supervised ML
+# 📐 Regression in Supervised ML
 
 Supervised ML means the model learns from labeled data — you give it inputs and the correct outputs, and it learns the pattern.
 Regression is used when the output is a continuous number (e.g., house price, temperature).
