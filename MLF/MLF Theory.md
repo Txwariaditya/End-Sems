@@ -107,7 +107,7 @@ where m = slope (weight) and b = intercept (bias).
 
 Example: Predicting house price based only on size.
 
-
+## 
 
 ## 2. Simple Linear Regression Equations
 
@@ -117,7 +117,7 @@ b = Ȳ - m·X̄
 
 These formulas minimize the error between predicted and actual values.
 
----
+##
 
 ## 3. Cost Function
 Measures how wrong your model's predictions are. For regression, the most common is Mean Squared Error (MSE):
@@ -125,7 +125,7 @@ Cost = (1/n) Σ(Ypred - Yactual)²
 
 The goal of training is to minimize this cost.
 
----
+##
 
 ## 4. Convergence Algorithms (Gradient Descent)
 This is the algorithm used to minimize the cost function iteratively:
@@ -136,26 +136,25 @@ Repeat until cost stops decreasing
 
 α (alpha) = learning rate — controls step size. Too high → overshoots. Too low → very slow.
 
----
 
+##
 ## 5. Multiple Linear Regression
 Same idea, but with multiple input features (X1, X2, X3...):
 Y = b + m1X1 + m2X2 + ... + mnXn
 Example: Predicting house price using size, location, AND number of rooms.
 
----
-
+##
 ## 6. Performance Metrics
 MetricFormulaMeaningMAE(1/n)Σ|Ypred - Yactual|Average absolute errorMSE(1/n)Σ(Ypred - Yactual)²Penalizes large errors moreRMSE√MSESame unit as output, easier to interpret
 Lower values = better model.
 
----
 
+##
 ## 7. Overfitting & Underfitting
 Problem Meaning FixUnder fitting Model too simple, misses patternsUse more features / complex modelOverfittingModel memorizes training data, fails on new dataRegularization, more dataGood fitGeneralizes well to unseen data✅ Goal
 
----
 
+##
 ## 8. Polynomial Regression
 When the relationship between X and Y is curved, not linear:
 
