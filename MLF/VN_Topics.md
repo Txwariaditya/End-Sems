@@ -1,7 +1,7 @@
 ## 🔹 1. Types of Encoding
 
 ### ✅ Nominal Encoding
-    Used for categorical data with no order
+    **Used for categorical data with no order**
     Example: Color → {Red, Blue, Green}
     Usually done via One-Hot Encoding
 
