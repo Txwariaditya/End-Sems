@@ -59,7 +59,7 @@ b = Ȳ - mX̄
 ### Mean Squared Error (MSE)
 
 ```math
-Cost = (1/n) Σ(Y_pred - Y_actual)^2
+Cost = (1/n) Σ(Y_Pred - Y_Actual)^2
 ```
 
 📌 Purpose:
