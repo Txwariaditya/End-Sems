@@ -9,7 +9,7 @@ Browser asks: “What is the IP?”
 
 DNS (Domain Name System) translates:
 
-• google.com → 142.250.xxx.xxx
+- google.com → 142.250.xxx.xxx
 
 **📌 Think: DNS = Internet’s phonebook**
 
@@ -25,37 +25,37 @@ DNS (Domain Name System) translates:
 
 **📌 Ensures:**
 
-●Reliability
-●Synchronization
+-Reliability
+-Synchronization
 
 ---
 
 ### 🔹 Step 3: HTTP Request/Response
-●   Browser sends request
-●   Server returns HTML, CSS, JS
+-   Browser sends request
+-   Server returns HTML, CSS, JS
 
 --- 
 
 ### 🔹 TLS (HTTPS)
-●   Encryption layer added after TCP
-●   Protects data (passwords, etc.)
+-   Encryption layer added after TCP
+-   Protects data (passwords, etc.)
 
 --- 
 
 ## 2. Two-Way vs Three-Way Handshake
 
 ### 🔹 2-Way Handshake
-●   SYN → SYN-ACK
+-   SYN → SYN-ACK
         ❌ Problem:
-●   No confirmation from client
-●   Can cause **half-open** connections
+-   No confirmation from client
+-   Can cause **half-open** connections
 
 ---
 
 ### 🔹 3-Way Handshake (Used)
-●   SYN → SYN-ACK → ACK
+-   SYN → SYN-ACK → ACK
         ✅ Reliable because:
-●   Both sides confirm readiness
+-   Both sides confirm readiness
 
 **📌 Interview line:**
     **3-way handshake prevents stale/duplicate connections.**
@@ -69,10 +69,10 @@ DNS (Domain Name System) translates:
 **A data structure that improves search speed.**
 
 **📌 Without index:**
-    ●   Full table scan → slow
+    -   Full table scan → slow
 
 **📌 With index:**
-    ●   Direct lookup → fast
+    -   Direct lookup → fast
 
 ---------------------------------------------
 
@@ -80,15 +80,15 @@ DNS (Domain Name System) translates:
 
     SELECT * FROM students WHERE roll_no = 101;
 
-●   Without index → scan all rows
-●   With index → jump directly
+-   Without index → scan all rows
+-   With index → jump directly
 
 ### 🔹 Types
 
-●   **Primary Index**
-●   **Secondary Index**
-●   **B-Tree Index (most common)**
-●   **Hash Index**
+-   **Primary Index**
+-   **Secondary Index**
+-   **B-Tree Index (most common)**
+-   **Hash Index**
 
 ---
 
@@ -106,9 +106,9 @@ DNS (Domain Name System) translates:
 **System spends more time swapping pages than executing**
 -----------------------------------------------------------------------
 ### 🔹 Why it happens?
-●   Too many processes
-●   Not enough RAM
-●   High page faults
+-   Too many processes
+-   Not enough RAM
+-   High page faults
 --------------------------------------------------------------------------
 ### 🔹 Result
 
@@ -117,9 +117,9 @@ DNS (Domain Name System) translates:
 ----------------------------------------------------------------------------
 ### 🔹 Solution
 
-●   Increase RAM
-●   Reduce multiprogramming
-●   Use better page replacement (LRU)
+-   Increase RAM
+-   Reduce multiprogramming
+-   Use better page replacement (LRU)
 
 ---
 
@@ -138,33 +138,33 @@ DNS (Domain Name System) translates:
 
 ----------------------------------------------------------------------------------
 ### 🔹 Problems
-●   Concurrency issues
-●   Data consistency
-●   Deadlocks
+-   Concurrency issues
+-   Data consistency
+-   Deadlocks
 
 --- 
 
 ## 🧾 6. SQL vs NoSQL
 
 ### 🔹 SQL (Relational)
-●   Structured tables
-●   Fixed schema
+-   Structured tables
+-   Fixed schema
 
 #### Examples:
-●   **MySQL**
-●   **PostgreSQL**
+-   **MySQL**
+-   **PostgreSQL**
 
 **✔** Strong consistency
 **✔** ACID properties
 ----------------------------------------------------------------------------------------------
 ### 🔹 NoSQL (Non-Relational)
-●   Flexible schema
-●   JSON-like data
+-   Flexible schema
+-   JSON-like data
 
 #### Examples:
 
-●   MongoDB
-●   Cassandra
+-   MongoDB
+-   Cassandra
 
 **✔** Scalable
 **✔** Fast for large data
@@ -178,13 +178,13 @@ DNS (Domain Name System) translates:
 ----------------------------------------------------------------
 ### 🔹 Problem it solves
 **When servers are added/removed:**
-●   Normal hashing → massive reshuffling ❌
-●   Consistent hashing → minimal changes ✅
+-   Normal hashing → massive reshuffling ❌
+-   Consistent hashing → minimal changes ✅
 --------------------------------------------------------------------
 ### 🔹 How it works
-●   Imagine a circular ring
-●   Servers + data mapped on ring
-●   Data goes to nearest server clockwise
+-   Imagine a circular ring
+-   Servers + data mapped on ring
+-   Data goes to nearest server clockwise
 -----------------------------------------------------------------------
 ### 🔹 Benefits
 
@@ -194,18 +194,18 @@ DNS (Domain Name System) translates:
 
 #### 📌 Used in:
 
-●   Distributed caches
-●   CDNs
-●   Databases (e.g., Cassandra)
+-   Distributed caches
+-   CDNs
+-   Databases (e.g., Cassandra)
 
 ---
 
 ## ⚡ Final Revision (Quick Recall)
 
-●   DNS → domain → IP
-●   3-way handshake → reliable connection
-●   Indexing → faster queries
-●   Thrashing → too many page faults
-●   DB sharing → multiple users, concurrency issues
-●   SQL vs NoSQL → structure vs flexibility
-●   Consistent hashing → scalable distribution
+-   DNS → domain → IP
+-   3-way handshake → reliable connection
+-   Indexing → faster queries
+-   Thrashing → too many page faults
+-   DB sharing → multiple users, concurrency issues
+-   SQL vs NoSQL → structure vs flexibility
+-   Consistent hashing → scalable distribution
