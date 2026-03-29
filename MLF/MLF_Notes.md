@@ -1,102 +1,186 @@
-# MLF UNIT – Data Processing, EDA & Regression (Clean Notes)
-
-## 1. FEATURE ENGINEERING
-Transform raw data → better representation → improve model performance
-
-### Missing Value Imputation
-**Why Missing Values Occur**
-- Sensor failure  
-- Data entry errors  
-- Dropped records  
-
-**Methods**
-- Drop (MCAR)
-- Mean (normal distribution)
-- Median (skewed, robust)
-- Mode (categorical)
-- KNN / MICE (advanced)
+# 📘 MLF UNIT — Data Processing, EDA & Regression (Theory Notes)
 
 ---
 
-### Imbalanced Dataset & SMOTE
-- Problem: biased model due to skewed classes  
-- SMOTE: creates synthetic samples using nearest neighbors  
+## 🔹 1. Feature Engineering
+
+Transform raw data into better representations to improve model performance.
 
 ---
 
-### Outlier Handling
-**Detection**
-- IQR: [Q1 − 1.5×IQR, Q3 + 1.5×IQR]
-- Z-score: ±3σ  
+### 🧩 Missing Value Imputation
 
-**Treatment**
-- Remove
-- Cap
-- Transform  
+**Why Missing Values Occur:**
 
----
+* Sensor failure
+* Data entry errors
+* Dropped records
 
-### Data Encoding
-- One-Hot (nominal)
-- Label Encoding (tree models)
-- Ordinal Encoding (ordered)
-- Target Encoding (supervised)
+**Methods:**
+
+* **Drop (MCAR):** Remove rows when missing data is minimal
+* **Mean:** For normally distributed data
+* **Median:** For skewed distributions (robust)
+* **Mode:** For categorical data
+* **Advanced:** KNN, MICE (for complex missing patterns)
 
 ---
 
-## 2. EDA
-Understand dataset before modeling
+### ⚖️ Imbalanced Dataset & SMOTE
 
-- Statistical: mean, median, std  
-- Visual: histogram, boxplot  
-
----
-
-## 3. DATASET-SPECIFIC EDA
-
-### Red Wine Dataset
-- Target: Quality (3–8)
-- Focus: correlation, imbalance  
-
-### Flight Price Dataset
-- Target: Price  
-- Feature engineering: duration, airline, datetime  
+* Problem: Model becomes biased toward majority class
+* SMOTE: Generates synthetic minority samples using nearest neighbors
 
 ---
 
-## 4. ML WORKFLOW
-Raw → EDA → Feature Engineering → Encoding → Split → Model
+### 🚨 Outlier Handling
+
+**Detection:**
+
+* IQR:
+
+  ```
+  [Q1 − 1.5 × IQR, Q3 + 1.5 × IQR]
+  ```
+* Z-score:
+
+  ```
+  ±3σ
+  ```
+
+**Treatment:**
+
+* Remove
+* Cap (winsorization)
+* Transform (log, sqrt)
 
 ---
 
-## 5. REGRESSION
+### 🔢 Data Encoding
 
-### Simple Linear Regression
-y = mx + b  
-
-### Cost Function (MSE)
-(1/n) Σ(Ypred - Yactual)^2  
-
-### Gradient Descent
-m = m - α * gradient  
-
-### Multiple Regression
-Y = b + m1X1 + m2X2 + ...  
+* **One-Hot Encoding:** Nominal data
+* **Label Encoding:** Suitable for tree-based models
+* **Ordinal Encoding:** Preserves order
+* **Target Encoding:** Based on target variable
 
 ---
 
-### Metrics
-- MAE
-- MSE
-- RMSE  
+## 🔹 2. EDA (Exploratory Data Analysis)
+
+Understand dataset before modeling.
+
+**Types:**
+
+* **Statistical:** Mean, median, standard deviation
+* **Visual:** Histogram, boxplot
 
 ---
 
-### Overfitting vs Underfitting
-- Underfitting: too simple  
-- Overfitting: memorization  
+## 🔹 3. Dataset-Specific EDA
+
+### 🍷 Red Wine Dataset
+
+* Target: Quality (3–8)
+* Focus:
+
+  * Feature correlation
+  * Class imbalance
 
 ---
 
-### Polynomial Regression
-Y = b + m1X + m2X^2 + ...  
+### ✈️ Flight Price Dataset
+
+* Target: Price (continuous)
+
+**Feature Engineering Focus:**
+
+* Duration
+* Airline
+* Datetime extraction
+
+---
+
+## 🔹 4. ML Workflow
+
+```
+Raw Data → EDA → Feature Engineering → Encoding → Train/Test Split → Model
+```
+
+📌 EDA drives preprocessing decisions.
+
+---
+
+## 🔹 5. Regression
+
+### 📉 Simple Linear Regression
+
+```
+y = mx + b
+```
+
+---
+
+### 🎯 Cost Function (MSE)
+
+```
+(1/n) Σ(Y_pred − Y_actual)^2
+```
+
+---
+
+### 🔄 Gradient Descent
+
+```
+m = m − α × gradient
+```
+
+* α (learning rate) controls step size
+
+---
+
+### 📊 Multiple Linear Regression
+
+```
+Y = b + m1X1 + m2X2 + ...
+```
+
+---
+
+### 📏 Evaluation Metrics
+
+* **MAE** → Mean Absolute Error
+* **MSE** → Mean Squared Error
+* **RMSE** → Root Mean Squared Error
+
+---
+
+### ⚠️ Overfitting vs Underfitting
+
+* **Underfitting:** Model too simple → misses patterns
+* **Overfitting:** Model memorizes training data → poor generalization
+
+---
+
+### 🔄 Polynomial Regression
+
+```
+Y = b + m1X + m2X^2 + ...
+```
+
+⚠️ Higher degree increases overfitting risk
+
+---
+
+## ⚡ Quick Revision
+
+* Feature engineering → improves input quality
+* SMOTE → handles class imbalance
+* IQR/Z-score → detect outliers
+* Encoding → categorical → numeric
+* EDA → understand before modeling
+* Regression → predict continuous output
+* Gradient descent → optimize model
+* Overfitting → memorize ❌
+* Underfitting → too simple ❌
+
+---
