@@ -182,7 +182,7 @@ Converts categorical → binary columns
 
 Tail extends to the right
 Most values are small
-Relation:
-Mean > Median > Mode
+#### Relation:
+**Mean > Median > Mode**
 
-✔ Example: Income distribution
+**✔ Example: Income distribution**
