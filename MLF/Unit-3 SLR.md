@@ -110,7 +110,7 @@ b = b - α * ∂Cost/∂b
 
 | Metric | Formula                      | Meaning                |   |                    |
 | ------ | ---------------------------- | ---------------------- | - | ------------------ |
-| MAE    | |Y_pred − Y_actual|          | Y_pred - Y_actual      |   | Avg absolute error |
+| MAE    | mod(Y_pred − Y_actual)       | Y_pred - Y_actual      |   | Avg absolute error |
 | MSE    | (1/n) Σ(Y_pred - Y_actual)^2 | Penalizes large errors |   |                    |
 | RMSE   | √MSE                         | Same unit as output    |   |                    |
 
