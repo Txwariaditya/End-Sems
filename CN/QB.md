@@ -1,4 +1,4 @@
-# 📘 QB.md — Full Question Bank Q1–Q200:
+# 📘Full Question Bank Q1–Q200:
 
 ---
 
