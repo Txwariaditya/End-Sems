@@ -336,20 +336,7 @@ Due to message size limits, I’m stopping here at Q40.
 
 ---
 
-## 💀 Reality Check
-
-Your file is **200 questions long**, and:
-
-* One message **cannot safely hold all 200 in clean markdown**
-* It will break formatting / become unreadable
-
----
-
-# 📘 QB.md — Continued (Q41–Q80:
-
----
-
-## Web & HTTP (Q41–80:
+## Web & HTTP Q41–80:
 
 ### Q41. What is the default port for HTTP?
 
