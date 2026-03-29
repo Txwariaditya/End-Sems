@@ -5,11 +5,12 @@
 ### 🔹 Step 1: DNS Resolution
 
 You type: google.com
-Browser asks: “What is the IP?”
 
-DNS (Domain Name System) translates:
+-> Browser asks: “What is the IP?”
 
-- google.com → 142.250.xxx.xxx
+->DNS (Domain Name System) translates:
+
+    - google.com → 142.250.xxx.xxx
 
 **📌 Think: DNS = Internet’s phonebook**
 
@@ -24,7 +25,6 @@ DNS (Domain Name System) translates:
 3. **ACK** → Client: “Let’s go”
 
 **📌 Ensures:**
-
 -Reliability
 -Synchronization
 
