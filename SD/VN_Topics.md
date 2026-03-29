@@ -3,6 +3,7 @@
 ## 🌐 1. How Google Works (DNS + Handshake)
 
 ### 🔹 Step 1: DNS Resolution
+
 You type: google.com
 Browser asks: “What is the IP?”
 
@@ -24,8 +25,8 @@ DNS (Domain Name System) translates:
 
 **📌 Ensures:**
 
-●   Reliability
-●   Synchronization
+●Reliability
+●Synchronization
 
 ---
 
