@@ -177,6 +177,9 @@ Converts categorical → binary columns
 ## 🔹 8. Histogram (Positive Skew)
 
 ### ✅ Positive Skew (Right Skewed)
+
+![alt text](image-5.png)
+
 Tail extends to the right
 Most values are small
 Relation:
