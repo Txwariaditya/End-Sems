@@ -1,7 +1,4 @@
 # 🚀 Unit 3 — System Design Core
-
-
-
 ## 🌐 1. OSI Model (7 Layers)
 
 | Layer        | Function               | Example   |
