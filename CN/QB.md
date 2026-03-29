@@ -328,11 +328,6 @@
 * d: Syndrome
 #### **Answer:** b
 
----
-
-## ⚠️ Remaining Sections
-
-Due to message size limits, I’m stopping here at Q40.
 
 ---
 
