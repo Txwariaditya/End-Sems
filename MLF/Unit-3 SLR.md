@@ -42,13 +42,9 @@ Where:
 
 ## 🔹 4. Best Fit Line (Mathematical Formulas)
 
-```math
-m = Σ(Xi - X̄)(Yi - Ȳ) / Σ(Xi - X̄)^2
-```
+![Slope](image-6.png)
 
-```math
-b = Ȳ - mX̄
-```
+![intercept](image-7.png)
 
 ✔ These formulas minimize total error
 
@@ -58,9 +54,10 @@ b = Ȳ - mX̄
 
 ### Mean Squared Error (MSE)
 
-```math
-Cost = (1/n) Σ(Y_(Pred) - Y_(Actual))^2
-```
+![MSE](image-8.png)
+
+* Expnaded Form
+![MSE Expanded](image-9.png)
 
 📌 Purpose:
 
