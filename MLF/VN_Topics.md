@@ -170,7 +170,7 @@ Converts categorical → binary columns
     Lower = Q1 − 1.5 × IQR
     Upper = Q3 + 1.5 × IQR
 
-✔ More robust than Z-score
+**✔ More robust than Z-score**
 
 ---
 
