@@ -110,11 +110,18 @@ b = b - α * ∂Cost/∂b
 
 | Metric | Formula                      | Meaning                |   |                    |
 | ------ | ---------------------------- | ---------------------- | - | ------------------ |
-| MAE    | (1/n) Σ                      | Y_pred - Y_actual      |   | Avg absolute error |
+| MAE    | |Y_pred − Y_actual|          | Y_pred - Y_actual      |   | Avg absolute error |
 | MSE    | (1/n) Σ(Y_pred - Y_actual)^2 | Penalizes large errors |   |                    |
 | RMSE   | √MSE                         | Same unit as output    |   |                    |
 
-✔ Lower values = better model
+#### Full Forms
+
+* MAE : Mean Absolute Error 
+* MSE : Mean Squared Error
+* RMSE: Root Mean Squared Error
+
+
+**✔ Lower values = better model**
 
 ---
 
