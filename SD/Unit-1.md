@@ -44,9 +44,9 @@ System Design is the process of designing architecture, components, and data flo
 * Multiple machines working together
 * Data + workload distributed
 
-* ✔ Scalable
-* ✔ Fault tolerant
-* ❌ Complex
+    * ✔ Scalable
+    * ✔ Fault tolerant
+    * ❌ Complex
 
 ---
 
@@ -123,9 +123,9 @@ Ensures all users see same data.
 
 * Single unified codebase
 
-* ✔ Simple
-* ✔ Easy to deploy
-* ❌ Hard to scale
+    * ✔ Simple
+    * ✔ Easy to deploy
+    * ❌ Hard to scale
 
 ---
 
@@ -133,9 +133,9 @@ Ensures all users see same data.
 
 * System split into small independent services
 
-- ✔ Scalable
-- ✔ Flexible
-- ❌ Complex
+    - ✔ Scalable
+    - ✔ Flexible
+    - ❌ Complex
 
 ---
 
