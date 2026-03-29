@@ -732,12 +732,7 @@
 #### **Answer:** b
 
 
-
-# 📘 QB.md — Continued (Q81–Q120:
-
-
-
-## Email, SMTP, IMAP, POP3 (Q81–110:
+## Email, SMTP, IMAP, POP3 Q81–110:
 
 ### Q81. Protocol for sending email from client to server?
 
@@ -749,7 +744,7 @@
 
 
 
-### Q82. SMTP port (unencrypted:?
+### Q82. SMTP port unencrypted:?
 
 * a: 25
 * b: 110
@@ -1141,11 +1136,7 @@
 
 
 
-# 📘 QB.md — Continued (Q121–Q160:
-
-
-
-## DNS (Q121–150:
+## DNS Q121–150:
 
 ### Q121. Purpose of DNS caching?
 
