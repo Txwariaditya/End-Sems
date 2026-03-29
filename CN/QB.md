@@ -10,7 +10,7 @@
 * b) Client-Server
 * c) Hybrid
 * d) Mesh
-  **Answer:** b
+**Answer:** b
 
 ### Q2. What is a primary characteristic of a Peer-to-Peer (P2P) architecture?
 
@@ -18,7 +18,7 @@
 * b) Always-on server
 * c) Self-scalability
 * d) Fixed IP addresses for all peers
-  **Answer:** c
+**Answer:** c
 
 ### Q3. In the client-server model, who initiates communication?
 
@@ -26,7 +26,7 @@
 * b) The client
 * c) Both simultaneously
 * d) The network router
-  **Answer:** b
+**Answer:** b
 
 ### Q4. What is a major challenge of P2P applications?
 
@@ -34,7 +34,7 @@
 * b) Single point of failure
 * c) ISP unfriendliness
 * d) Difficulty in adding users
-  **Answer:** c
+**Answer:** c
 
 ### Q5. Which is an example of P2P?
 
@@ -42,7 +42,7 @@
 * b) FTP server
 * c) BitTorrent
 * d) Email server
-  **Answer:** c
+**Answer:** c
 
 ### Q6. Server bottleneck problem?
 
@@ -50,7 +50,7 @@
 * b) Cannot handle requests
 * c) Always off
 * d) Clients too fast
-  **Answer:** b
+**Answer:** b
 
 ### Q7. What is a peer?
 
@@ -58,7 +58,7 @@
 * b) Both client & server
 * c) Only requester
 * d) Router
-  **Answer:** b
+**Answer:** b
 
 ### Q8. Solution to bottleneck?
 
@@ -66,7 +66,7 @@
 * b) Caching + load balancing
 * c) Reduce bandwidth
 * d) UDP only
-  **Answer:** b
+**Answer:** b
 
 ### Q9. Client-server communication?
 
@@ -74,7 +74,7 @@
 * b) No
 * c) With permission
 * d) Sometimes
-  **Answer:** b
+**Answer:** b
 
 ### Q10. Hybrid architecture?
 
@@ -82,7 +82,7 @@
 * b) P2P
 * c) Combination
 * d) No servers
-  **Answer:** c
+**Answer:** c
 
 ### Q11. Hybrid example?
 
@@ -90,7 +90,7 @@
 * b) BitTorrent
 * c) Instant Messaging
 * d) HTTP
-  **Answer:** c
+**Answer:** c
 
 ### Q12. Advantage of P2P?
 
@@ -98,7 +98,7 @@
 * b) Cost-effective
 * c) Predictable
 * d) Centralized
-  **Answer:** b
+**Answer:** b
 
 ### Q13. Load balancer role?
 
@@ -106,7 +106,7 @@
 * b) Distribute requests
 * c) Store pages
 * d) Manage P2P
-  **Answer:** b
+**Answer:** b
 
 ### Q14. Peer contribution?
 
@@ -114,7 +114,7 @@
 * b) Provide resources
 * c) Central server
 * d) Routing
-  **Answer:** b
+**Answer:** b
 
 ### Q15. Server characteristic?
 
@@ -122,7 +122,7 @@
 * b) Always-on
 * c) Initiates
 * d) Dynamic IP
-  **Answer:** b
+**Answer:** b
 
 ### Q16. Client role?
 
@@ -130,7 +130,7 @@
 * b) Request services
 * c) Provide
 * d) Maintain DB
-  **Answer:** b
+**Answer:** b
 
 ### Q17. NOT P2P?
 
@@ -138,7 +138,7 @@
 * b) Direct
 * c) Central directory
 * d) Intermittent
-  **Answer:** c
+**Answer:** c
 
 ### Q18. Self-scalability?
 
@@ -146,7 +146,7 @@
 * b) More peers = more capacity
 * c) Server scaling
 * d) Protocol scaling
-  **Answer:** b
+**Answer:** b
 
 ### Q19. Single point failure?
 
@@ -154,7 +154,7 @@
 * b) Client-server
 * c) Both
 * d) None
-  **Answer:** b
+**Answer:** b
 
 ### Q20. Skype early?
 
@@ -162,7 +162,7 @@
 * b) P2P
 * c) Mainframe
 * d) Cloud
-  **Answer:** b
+**Answer:** b
 
 ### Q21. P2P challenge?
 
@@ -170,7 +170,7 @@
 * b) Incentives
 * c) Fixed IP
 * d) Fiber
-  **Answer:** b
+**Answer:** b
 
 ### Q22. Replace server?
 
@@ -178,7 +178,7 @@
 * b) Switch
 * c) Load balancer
 * d) Repeater
-  **Answer:** c
+**Answer:** c
 
 ### Q23. Load balancer handling?
 
@@ -186,7 +186,7 @@
 * b) Same server
 * c) Closest
 * d) Block
-  **Answer:** b
+**Answer:** b
 
 ### Q24. P2P disadvantage?
 
@@ -194,7 +194,7 @@
 * b) Security
 * c) Central server
 * d) Not scalable
-  **Answer:** b
+**Answer:** b
 
 ### Q25. Server down?
 
@@ -202,7 +202,7 @@
 * b) Clients fail
 * c) Becomes P2P
 * d) Clients become servers
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -214,7 +214,7 @@
 * b) Bandwidth
 * c) Latency
 * d) Loss
-  **Answer:** c
+**Answer:** c
 
 ### Q27. Jitter?
 
@@ -222,7 +222,7 @@
 * b) Latency variation
 * c) Loss count
 * d) Queue time
-  **Answer:** b
+**Answer:** b
 
 ### Q28. Throughput?
 
@@ -230,7 +230,7 @@
 * b) Jitter
 * c) Bandwidth
 * d) MTU
-  **Answer:** c
+**Answer:** c
 
 ### Q29. Bandwidth unit?
 
@@ -238,7 +238,7 @@
 * b) packets/sec
 * c) bps
 * d) hops
-  **Answer:** c
+**Answer:** c
 
 ### Q30. Packet loss cause?
 
@@ -246,7 +246,7 @@
 * b) Low jitter
 * c) Congestion
 * d) Fast router
-  **Answer:** c
+**Answer:** c
 
 ### Q31. VoIP QoS?
 
@@ -254,7 +254,7 @@
 * b) High BW
 * c) Low loss
 * d) High delay
-  **Answer:** a
+**Answer:** a
 
 ### Q32. NOT video QoS?
 
@@ -262,7 +262,7 @@
 * b) Resolution
 * c) Domain
 * d) Frame rate
-  **Answer:** c
+**Answer:** c
 
 ### Q33. High jitter?
 
@@ -270,7 +270,7 @@
 * b) Inconsistent
 * c) High BW
 * d) No loss
-  **Answer:** b
+**Answer:** b
 
 ### Q34. 5% loss?
 
@@ -278,7 +278,7 @@
 * b) Fail delivery
 * c) Low BW
 * d) Delay
-  **Answer:** b
+**Answer:** b
 
 ### Q35. Processing delay?
 
@@ -286,7 +286,7 @@
 * b) Transmission
 * c) Processing
 * d) Queue
-  **Answer:** c
+**Answer:** c
 
 ### Q36. Propagation depends?
 
@@ -294,7 +294,7 @@
 * b) BW
 * c) Distance
 * d) CPU
-  **Answer:** c
+**Answer:** c
 
 ### Q37. Transmission depends?
 
@@ -302,7 +302,7 @@
 * b) Size & BW
 * c) Routers
 * d) App
-  **Answer:** b
+**Answer:** b
 
 ### Q38. Peering congestion?
 
@@ -310,7 +310,7 @@
 * b) Last mile
 * c) Middle
 * d) Server
-  **Answer:** c
+**Answer:** c
 
 ### Q39. Protocol with delay?
 
@@ -318,7 +318,7 @@
 * b) IP
 * c) TCP
 * d) ARP
-  **Answer:** c
+**Answer:** c
 
 ### Q40. Sender > receiver?
 
@@ -326,7 +326,7 @@
 * b) Overflow
 * c) Shrink
 * d) Syndrome
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -357,7 +357,7 @@ Your file is **200 questions long**, and:
 * b) 25
 * c) 80
 * d) 443
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -367,7 +367,7 @@ Your file is **200 questions long**, and:
 * b) 2
 * c) 3
 * d) 4
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -377,7 +377,7 @@ Your file is **200 questions long**, and:
 * b) HTTP/1.0
 * c) HTTP/1.1
 * d) HTTP/2.0
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -387,7 +387,7 @@ Your file is **200 questions long**, and:
 * b) Multiple objects over single TCP
 * c) More secure
 * d) Less memory
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -397,7 +397,7 @@ Your file is **200 questions long**, and:
 * b) POST
 * c) HEAD
 * d) PUT
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -407,7 +407,7 @@ Your file is **200 questions long**, and:
 * b) Upload data
 * c) Delete resource
 * d) TCP connection
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -417,7 +417,7 @@ Your file is **200 questions long**, and:
 * b) 301
 * c) 400
 * d) 404
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -427,7 +427,7 @@ Your file is **200 questions long**, and:
 * b) 2xx
 * c) 3xx
 * d) 4xx
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -437,7 +437,7 @@ Your file is **200 questions long**, and:
 * b) Moved Permanently
 * c) Bad Request
 * d) Server Error
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -447,7 +447,7 @@ Your file is **200 questions long**, and:
 * b) 404
 * c) 500
 * d) 505
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -457,7 +457,7 @@ Your file is **200 questions long**, and:
 * b) Cookie header
 * c) TCP port
 * d) DNS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -467,7 +467,7 @@ Your file is **200 questions long**, and:
 * b) Browser cache
 * c) Local files
 * d) DNS cache
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -477,7 +477,7 @@ Your file is **200 questions long**, and:
 * b) User state
 * c) TCP security
 * d) DNS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -487,7 +487,7 @@ Your file is **200 questions long**, and:
 * b) Block sites
 * c) Assign IP
 * d) CPU speed
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -497,7 +497,7 @@ Your file is **200 questions long**, and:
 * b) Error
 * c) Forward to server
 * d) Blank
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -507,7 +507,7 @@ Your file is **200 questions long**, and:
 * b) Eviction
 * c) Stale data
 * d) DOS
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -517,7 +517,7 @@ Your file is **200 questions long**, and:
 * b) Mark outdated
 * c) Remove unpopular
 * d) Attack
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -527,7 +527,7 @@ Your file is **200 questions long**, and:
 * b) Pipelining
 * c) Spanning
 * d) Caching
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -537,7 +537,7 @@ Your file is **200 questions long**, and:
 * b) 5
 * c) 6
 * d) 10
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -547,7 +547,7 @@ Your file is **200 questions long**, and:
 * b) POST
 * c) PUT
 * d) DELETE
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -557,7 +557,7 @@ Your file is **200 questions long**, and:
 * b) Headers
 * c) Blank line
 * d) Status code
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -567,7 +567,7 @@ Your file is **200 questions long**, and:
 * b) Server domain
 * c) Browser
 * d) Language
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -577,7 +577,7 @@ Your file is **200 questions long**, and:
 * b) Secure
 * c) Headers only
 * d) Language
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -587,7 +587,7 @@ Your file is **200 questions long**, and:
 * b) Stateless
 * c) Network layer
 * d) Guaranteed
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -597,7 +597,7 @@ Your file is **200 questions long**, and:
 * b) HTTP/1.1
 * c) HTTP/2
 * d) HTTP/3
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -607,7 +607,7 @@ Your file is **200 questions long**, and:
 * b) UDP
 * c) QUIC
 * d) IP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -617,7 +617,7 @@ Your file is **200 questions long**, and:
 * b) Poison
 * c) Preload
 * d) Coherence
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -627,7 +627,7 @@ Your file is **200 questions long**, and:
 * b) DOS
 * c) Overflow
 * d) Miss
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -637,7 +637,7 @@ Your file is **200 questions long**, and:
 * b) Ordered vs interleaved
 * c) HTTPS vs HTTP
 * d) Multi TCP
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -647,7 +647,7 @@ Your file is **200 questions long**, and:
 * b) Client
 * c) OS
 * d) Proxy
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -657,7 +657,7 @@ Your file is **200 questions long**, and:
 * b) Cache clear
 * c) History
 * d) Sync
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -667,7 +667,7 @@ Your file is **200 questions long**, and:
 * b) Close
 * c) Timeout
 * d) Auto next
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -677,7 +677,7 @@ Your file is **200 questions long**, and:
 * b) Avoid connection overhead
 * c) Half packets
 * d) Faster always
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -687,7 +687,7 @@ Your file is **200 questions long**, and:
 * b) 301
 * c) 400
 * d) 500
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -697,7 +697,7 @@ Your file is **200 questions long**, and:
 * b) Accept
 * c) Host
 * d) Referer
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -707,7 +707,7 @@ Your file is **200 questions long**, and:
 * b) Reverse
 * c) Forward
 * d) Firewall
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -717,7 +717,7 @@ Your file is **200 questions long**, and:
 * b) Email
 * c) Browser
 * d) IP
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -727,7 +727,7 @@ Your file is **200 questions long**, and:
 * b) 404
 * c) 500
 * d) 502
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -737,7 +737,7 @@ Your file is **200 questions long**, and:
 * b) FIN
 * c) Blank
 * d) Content-Length
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -747,7 +747,7 @@ Your file is **200 questions long**, and:
 * b) Server sends extra
 * c) Config push
 * d) Upload
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -763,7 +763,7 @@ Your file is **200 questions long**, and:
 * b) IMAP
 * c) SMTP
 * d) HTTP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -773,7 +773,7 @@ Your file is **200 questions long**, and:
 * b) 110
 * c) 143
 * d) 587
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -783,7 +783,7 @@ Your file is **200 questions long**, and:
 * b) IMAP
 * c) POP3
 * d) HTTP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -793,7 +793,7 @@ Your file is **200 questions long**, and:
 * b) IMAP
 * c) SMTP
 * d) FTP
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -803,7 +803,7 @@ Your file is **200 questions long**, and:
 * b) Delete from server
 * c) Mark read
 * d) Archive
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -813,7 +813,7 @@ Your file is **200 questions long**, and:
 * b) 143
 * c) 993
 * d) 995
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -823,7 +823,7 @@ Your file is **200 questions long**, and:
 * b) Sync folders
 * c) Send email
 * d) Webmail
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -833,7 +833,7 @@ Your file is **200 questions long**, and:
 * b) 143
 * c) 993
 * d) 995
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -843,7 +843,7 @@ Your file is **200 questions long**, and:
 * b) 110
 * c) 143
 * d) 587
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -853,7 +853,7 @@ Your file is **200 questions long**, and:
 * b) Deleted everywhere
 * c) Mark unread
 * d) Re-download
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -863,7 +863,7 @@ Your file is **200 questions long**, and:
 * b) HTTP + SMTP
 * c) POP3 + IMAP
 * d) FTP + SMTP
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -873,7 +873,7 @@ Your file is **200 questions long**, and:
 * b) Sync
 * c) Security
 * d) Storage
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -883,7 +883,7 @@ Your file is **200 questions long**, and:
 * b) Webmail
 * c) Reduce spam
 * d) Speed
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -893,7 +893,7 @@ Your file is **200 questions long**, and:
 * b) 110
 * c) 143
 * d) 993
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -903,7 +903,7 @@ Your file is **200 questions long**, and:
 * b) Internet Mail Application Protocol
 * c) Interactive Mail
 * d) Internal Message
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -913,7 +913,7 @@ Your file is **200 questions long**, and:
 * b) IMAP
 * c) SMTP
 * d) HTTP + IMAP/POP3
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -923,7 +923,7 @@ Your file is **200 questions long**, and:
 * b) push/pull
 * c) stateful
 * d) secure
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -933,7 +933,7 @@ Your file is **200 questions long**, and:
 * b) Mail routing server
 * c) Webmail
 * d) Scanner
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -943,7 +943,7 @@ Your file is **200 questions long**, and:
 * b) Protocol
 * c) Client app
 * d) Transfer
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -953,7 +953,7 @@ Your file is **200 questions long**, and:
 * b) SMTP
 * c) IMAP
 * d) MIME
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -963,7 +963,7 @@ Your file is **200 questions long**, and:
 * b) Attachments
 * c) Secure POP3
 * d) Encrypt
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -973,7 +973,7 @@ Your file is **200 questions long**, and:
 * b) POP3
 * c) SMTP
 * d) HTTP
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -983,7 +983,7 @@ Your file is **200 questions long**, and:
 * b) Server storage
 * c) Header only
 * d) Archive
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -993,7 +993,7 @@ Your file is **200 questions long**, and:
 * b) IMAPS
 * c) SMTPS
 * d) HTTPS
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1003,7 +1003,7 @@ Your file is **200 questions long**, and:
 * b) Only new emails
 * c) Important only
 * d) Exact copy
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1013,7 +1013,7 @@ Your file is **200 questions long**, and:
 * b) Real-time push
 * c) Sleep
 * d) Summary
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1023,7 +1023,7 @@ Your file is **200 questions long**, and:
 * b) Not secure
 * c) No sync
 * d) Needs internet
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1033,7 +1033,7 @@ Your file is **200 questions long**, and:
 * b) Server → client
 * c) Local only
 * d) Full path
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1043,7 +1043,7 @@ Your file is **200 questions long**, and:
 * b) IPv6
 * c) Mail server
 * d) Alias
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1053,7 +1053,7 @@ Your file is **200 questions long**, and:
 * b) POP3
 * c) SMTP
 * d) MAPI
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1065,7 +1065,7 @@ Your file is **200 questions long**, and:
 * b) Name → IP
 * c) Routing
 * d) Security
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1075,7 +1075,7 @@ Your file is **200 questions long**, and:
 * b) Config
 * c) Mapping unit
 * d) Log
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1085,7 +1085,7 @@ Your file is **200 questions long**, and:
 * b) MX
 * c) A
 * d) CNAME
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1095,7 +1095,7 @@ Your file is **200 questions long**, and:
 * b) CNAME
 * c) NS
 * d) TXT
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1105,7 +1105,7 @@ Your file is **200 questions long**, and:
 * b) Order
 * c) Speed
 * d) Version
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1115,7 +1115,7 @@ Your file is **200 questions long**, and:
 * b) Text
 * c) Reverse lookup
 * d) NS
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1125,7 +1125,7 @@ Your file is **200 questions long**, and:
 * b) Web
 * c) Authoritative
 * d) Proxy
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1135,7 +1135,7 @@ Your file is **200 questions long**, and:
 * b) Client-side query
 * c) Conflict fix
 * d) Encrypt
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1145,7 +1145,7 @@ Your file is **200 questions long**, and:
 * b) Random
 * c) Repeat
 * d) Local
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1155,7 +1155,7 @@ Your file is **200 questions long**, and:
 * b) Yes/No
 * c) Repeat
 * d) Initial
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1171,7 +1171,7 @@ Your file is **200 questions long**, and:
 * b) Speed up queries
 * c) Block sites
 * d) Backup
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1181,7 +1181,7 @@ Your file is **200 questions long**, and:
 * b) Cache failed queries
 * c) Malicious cache
 * d) DNSSEC failure
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1191,7 +1191,7 @@ Your file is **200 questions long**, and:
 * b) Managed namespace portion
 * c) Server group
 * d) Region
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1201,7 +1201,7 @@ Your file is **200 questions long**, and:
 * b) Primary authoritative
 * c) Fastest
 * d) Recursive
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1211,7 +1211,7 @@ Your file is **200 questions long**, and:
 * b) Replicates from master
 * c) Forward only
 * d) Cache only
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1221,7 +1221,7 @@ Your file is **200 questions long**, and:
 * b) traceroute
 * c) nslookup/dig
 * d) netstat
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1231,7 +1231,7 @@ Your file is **200 questions long**, and:
 * b) IP → Name
 * c) Mail server
 * d) NS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1241,7 +1241,7 @@ Your file is **200 questions long**, and:
 * b) PTR
 * c) AAAA
 * d) NS
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1251,7 +1251,7 @@ Your file is **200 questions long**, and:
 * b) hosts
 * c) networks
 * d) resolv.conf
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1261,7 +1261,7 @@ Your file is **200 questions long**, and:
 * b) Start marker
 * c) Secure entry
 * d) Server list
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1271,7 +1271,7 @@ Your file is **200 questions long**, and:
 * b) CNAME
 * c) NS
 * d) MX
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1281,7 +1281,7 @@ Your file is **200 questions long**, and:
 * b) Cache duration
 * c) Lifespan
 * d) Expiry
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1291,7 +1291,7 @@ Your file is **200 questions long**, and:
 * b) Fake records
 * c) Misconfig
 * d) Encrypt
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1301,7 +1301,7 @@ Your file is **200 questions long**, and:
 * b) HTTPS
 * c) DNSSEC
 * d) IPsec
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1311,7 +1311,7 @@ Your file is **200 questions long**, and:
 * b) example
 * c) com
 * d) .
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -1321,7 +1321,7 @@ Your file is **200 questions long**, and:
 * b) IEEE
 * c) ICANN
 * d) ITU
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1331,7 +1331,7 @@ Your file is **200 questions long**, and:
 * b) Recursive
 * c) AXFR
 * d) ANY
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -1341,7 +1341,7 @@ Your file is **200 questions long**, and:
 * b) Query/response info
 * c) IP version
 * d) Auth
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1351,7 +1351,7 @@ Your file is **200 questions long**, and:
 * b) Single short TTL
 * c) Multiple CNAME
 * d) Special record
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1361,7 +1361,7 @@ Your file is **200 questions long**, and:
 * b) Client OS
 * c) Router
 * d) Root server
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1371,7 +1371,7 @@ Your file is **200 questions long**, and:
 * b) Text data
 * c) NS
 * d) Alias
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1381,7 +1381,7 @@ Your file is **200 questions long**, and:
 * b) A
 * c) TXT
 * d) SPF
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1391,7 +1391,7 @@ Your file is **200 questions long**, and:
 * b) Recursive
 * c) Inverse
 * d) Forward
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1401,7 +1401,7 @@ Your file is **200 questions long**, and:
 * b) Replication
 * c) Move domain
 * d) Encrypt
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1411,7 +1411,7 @@ Your file is **200 questions long**, and:
 * b) DHCP
 * c) Web
 * d) Gateway
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1421,7 +1421,7 @@ Your file is **200 questions long**, and:
 * b) google
 * c) com
 * d) mail
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1431,7 +1431,7 @@ Your file is **200 questions long**, and:
 * b) Short TTL
 * c) DNSSEC + randomization
 * d) Disable recursion
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1441,7 +1441,7 @@ Your file is **200 questions long**, and:
 * b) TC
 * c) RD
 * d) RCODE=3
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -1451,7 +1451,7 @@ Your file is **200 questions long**, and:
 * b) Definitive records
 * c) Internet primary
 * d) Only cache
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1461,7 +1461,7 @@ Your file is **200 questions long**, and:
 * b) UDP
 * c) SCTP
 * d) DCCP
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1473,7 +1473,7 @@ Your file is **200 questions long**, and:
 * b) Actual data
 * c) Software
 * d) Virus
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1483,7 +1483,7 @@ Your file is **200 questions long**, and:
 * b) Track peers
 * c) Download
 * d) Encrypt
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1493,7 +1493,7 @@ Your file is **200 questions long**, and:
 * b) Frames
 * c) Chunks
 * d) Blocks
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1503,7 +1503,7 @@ Your file is **200 questions long**, and:
 * b) All peers
 * c) Server
 * d) Attack
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1513,7 +1513,7 @@ Your file is **200 questions long**, and:
 * b) Downloader
 * c) Full uploader
 * d) Provider
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1523,7 +1523,7 @@ Your file is **200 questions long**, and:
 * b) Not designed for media
 * c) No formats
 * d) No compression
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1533,7 +1533,7 @@ Your file is **200 questions long**, and:
 * b) Central Data Node
 * c) Compressed Data Network
 * d) Crypto Network
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1543,7 +1543,7 @@ Your file is **200 questions long**, and:
 * b) Distributed delivery
 * c) Compress
 * d) DNS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1553,7 +1553,7 @@ Your file is **200 questions long**, and:
 * b) Microsoft
 * c) Akamai
 * d) Internal
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1563,7 +1563,7 @@ Your file is **200 questions long**, and:
 * b) Many small clusters
 * c) One center
 * d) P2P
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1579,7 +1579,7 @@ Your file is **200 questions long**, and:
 * b) Few large clusters at IXPs
 * c) Home server
 * d) Satellite
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1589,7 +1589,7 @@ Your file is **200 questions long**, and:
 * b) Route to best server
 * c) Encrypt
 * d) Manage P2P
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1599,7 +1599,7 @@ Your file is **200 questions long**, and:
 * b) Only IP
 * c) Browser
 * d) Time
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1609,7 +1609,7 @@ Your file is **200 questions long**, and:
 * b) Adaptive streaming
 * c) Codec
 * d) Algorithm
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1619,7 +1619,7 @@ Your file is **200 questions long**, and:
 * b) Metadata (bitrates, URLs)
 * c) History
 * d) Keys
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1629,7 +1629,7 @@ Your file is **200 questions long**, and:
 * b) Adapts to bandwidth
 * c) Less CPU
 * d) Only 4K
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1639,7 +1639,7 @@ Your file is **200 questions long**, and:
 * b) Sequential
 * c) Least available first
 * d) Fastest peer
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1649,7 +1649,7 @@ Your file is **200 questions long**, and:
 * b) Upload to uploaders
 * c) Find fastest
 * d) Report
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1659,7 +1659,7 @@ Your file is **200 questions long**, and:
 * b) Reduce load + improve UX
 * c) 100% uptime
 * d) Simplify DNS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1669,7 +1669,7 @@ Your file is **200 questions long**, and:
 * b) DNS
 * c) Spam
 * d) CPU
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1679,7 +1679,7 @@ Your file is **200 questions long**, and:
 * b) Server push
 * c) Request routing
 * d) Cache warming
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1689,7 +1689,7 @@ Your file is **200 questions long**, and:
 * b) Dedicated
 * c) Public
 * d) P2P
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1699,7 +1699,7 @@ Your file is **200 questions long**, and:
 * b) Low throughput
 * c) Hard to manage
 * d) Cost
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1709,7 +1709,7 @@ Your file is **200 questions long**, and:
 * b) Latency
 * c) Geographic closest
 * d) ISP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1719,7 +1719,7 @@ Your file is **200 questions long**, and:
 * b) Handle demand
 * c) Compress
 * d) Codec
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1729,7 +1729,7 @@ Your file is **200 questions long**, and:
 * b) IP
 * c) TCP
 * d) ICMP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1739,7 +1739,7 @@ Your file is **200 questions long**, and:
 * b) UDP
 * c) IP
 * d) SCTP
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1749,7 +1749,7 @@ Your file is **200 questions long**, and:
 * b) Join/leave rate
 * c) Attack
 * d) Speed
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1759,7 +1759,7 @@ Your file is **200 questions long**, and:
 * b) TCP
 * c) No CDN
 * d) Same
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1769,7 +1769,7 @@ Your file is **200 questions long**, and:
 * b) Closest server
 * c) Billing
 * d) DNS
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1781,7 +1781,7 @@ Your file is **200 questions long**, and:
 * b) Communication endpoint
 * c) Cable
 * d) Protocol
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1791,7 +1791,7 @@ Your file is **200 questions long**, and:
 * b) Data link
 * c) Transport
 * d) Network
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1801,7 +1801,7 @@ Your file is **200 questions long**, and:
 * b) TCP/UDP
 * c) HTTP/FTP
 * d) SMTP/POP3
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1811,7 +1811,7 @@ Your file is **200 questions long**, and:
 * b) Unreliable datagram
 * c) Secure
 * d) Ordered
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1821,7 +1821,7 @@ Your file is **200 questions long**, and:
 * b) Unreliable
 * c) Best effort
 * d) Multicast
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1831,7 +1831,7 @@ Your file is **200 questions long**, and:
 * b) bind()
 * c) listen() + accept()
 * d) connect()
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1841,7 +1841,7 @@ Your file is **200 questions long**, and:
 * b) send()
 * c) socket()
 * d) bind()
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1851,7 +1851,7 @@ Your file is **200 questions long**, and:
 * b) No
 * c) Windows only
 * d) udp_accept
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1861,7 +1861,7 @@ Your file is **200 questions long**, and:
 * b) IP + port
 * c) Hostname
 * d) Mask
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1871,7 +1871,7 @@ Your file is **200 questions long**, and:
 * b) Identify host
 * c) Sequence
 * d) Encrypt
-  **Answer:** a
+**Answer:** a
 
 ---
 
@@ -1881,7 +1881,7 @@ Your file is **200 questions long**, and:
 * b) accept
 * c) bind
 * d) recv
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1891,7 +1891,7 @@ Your file is **200 questions long**, and:
 * b) listen
 * c) bind
 * d) connect
-  **Answer:** d
+**Answer:** d
 
 ---
 
@@ -1901,7 +1901,7 @@ Your file is **200 questions long**, and:
 * b) sendto
 * c) connect
 * d) send
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1911,7 +1911,7 @@ Your file is **200 questions long**, and:
 * b) Error
 * c) Source address
 * d) Length
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1921,7 +1921,7 @@ Your file is **200 questions long**, and:
 * b) New socket
 * c) IP string
 * d) Bytes
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1931,7 +1931,7 @@ Your file is **200 questions long**, and:
 * b) Handle error
 * c) Host → network order
 * d) Hash
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1941,7 +1941,7 @@ Your file is **200 questions long**, and:
 * b) Terminate connection
 * c) Close send
 * d) Flush
-  **Answer:** b
+**Answer:** b
 
 ---
 
@@ -1951,7 +1951,7 @@ Your file is **200 questions long**, and:
 * b) servent
 * c) sockaddr_in / sockaddr_in6
 * d) in_addr
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1961,7 +1961,7 @@ Your file is **200 questions long**, and:
 * b) Single socket
 * c) Threads/processes
 * d) UDP
-  **Answer:** c
+**Answer:** c
 
 ---
 
@@ -1971,5 +1971,5 @@ Your file is **200 questions long**, and:
 * b) TCP cannot send
 * c) UDP has flow control
 * d) TCP is connectionless
-  **Answer:** a
+**Answer:** a
 
