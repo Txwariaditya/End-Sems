@@ -1,18 +1,21 @@
 # 🚀 UNIT 3 — SYSTEM DESIGN
 
+---
+
 ## 🌐 1. How Google Works (DNS + Handshake)
 
 ### 🔹 Step 1: DNS Resolution
 
-You type: google.com
+You type: `google.com`
 
--> Browser asks: “What is the IP?”
+* Browser asks: *“What is the IP?”*
+* DNS (Domain Name System) translates:
 
-->DNS (Domain Name System) translates:
+```
+google.com → 142.250.xxx.xxx
+```
 
-    - google.com → 142.250.xxx.xxx
-
-**📌 Think: DNS = Internet’s phonebook**
+**📌 Think:** DNS = Internet’s phonebook
 
 ---
 
@@ -25,40 +28,50 @@ You type: google.com
 3. **ACK** → Client: “Let’s go”
 
 **📌 Ensures:**
-1. Reliability
-2. Synchronization
+
+* Reliability
+* Synchronization
 
 ---
 
 ### 🔹 Step 3: HTTP Request/Response
--   Browser sends request
--   Server returns HTML, CSS, JS
 
---- 
+* Browser sends request
+* Server returns HTML, CSS, JS
+
+---
 
 ### 🔹 TLS (HTTPS)
--   Encryption layer added after TCP
--   Protects data (passwords, etc.)
 
---- 
+* Encryption layer added after TCP
+* Protects sensitive data (passwords, etc.)
 
-## 2. Two-Way vs Three-Way Handshake
+---
+
+## 🤝 2. Two-Way vs Three-Way Handshake
 
 ### 🔹 2-Way Handshake
--   SYN → SYN-ACK
-        ❌ Problem:
--   No confirmation from client
--   Can cause **half-open** connections
+
+* SYN → SYN-ACK
+
+**❌ Problems:**
+
+* No confirmation from client
+* Can cause **half-open connections**
 
 ---
 
 ### 🔹 3-Way Handshake (Used)
--   SYN → SYN-ACK → ACK
-        ✅ Reliable because:
--   Both sides confirm readiness
 
-**📌 Interview line:**
-    **3-way handshake prevents stale/duplicate connections.**
+* SYN → SYN-ACK → ACK
+
+**✅ Reliable because:**
+
+* Both sides confirm readiness
+
+**📌 Interview Line:**
+
+> 3-way handshake prevents stale or duplicate connections.
 
 ---
 
@@ -66,146 +79,187 @@ You type: google.com
 
 ### 🔹 What is it?
 
-**A data structure that improves search speed.**
+A data structure that improves search speed.
 
-**📌 Without index:**
-    -   Full table scan → slow
+**Without index:**
 
-**📌 With index:**
-    -   Direct lookup → fast
+* Full table scan → slow
 
----------------------------------------------
+**With index:**
+
+* Direct lookup → fast
+
+---
 
 ### 🔹 Example
 
-    SELECT * FROM students WHERE roll_no = 101;
+```sql
+SELECT * FROM students WHERE roll_no = 101;
+```
 
--   Without index → scan all rows
--   With index → jump directly
+* Without index → scans entire table
+* With index → jumps directly
+
+---
 
 ### 🔹 Types
 
--   **Primary Index**
--   **Secondary Index**
--   **B-Tree Index (most common)**
--   **Hash Index**
+* Primary Index
+* Secondary Index
+* B-Tree Index (most common)
+* Hash Index
 
 ---
 
 ### 🔹 Trade-offs
 
-**✔** Fast reads
-**❌** Slower writes (index must update)
-**❌** Extra memory
+* ✔ Fast reads
+* ❌ Slower writes (index updates required)
+* ❌ Extra storage
 
 ---
 
 ## 🔥 4. Thrashing (OS Concept)
 
 ### 🔹 What is it?
-**System spends more time swapping pages than executing**
------------------------------------------------------------------------
+
+System spends more time swapping pages than executing.
+
+---
+
 ### 🔹 Why it happens?
--   Too many processes
--   Not enough RAM
--   High page faults
---------------------------------------------------------------------------
+
+* Too many processes
+* Insufficient RAM
+* High page fault rate
+
+---
+
 ### 🔹 Result
 
-**❌** CPU utilization drops
-**❌** System becomes slow
-----------------------------------------------------------------------------
+* ❌ Low CPU utilization
+* ❌ System slowdown
+
+---
+
 ### 🔹 Solution
 
--   Increase RAM
--   Reduce multiprogramming
--   Use better page replacement (LRU)
+* Increase RAM
+* Reduce multiprogramming
+* Use better page replacement (e.g., LRU)
 
 ---
 
 ## 🗄️ 5. Database Sharing
 
 ### 🔹 Meaning
-**Multiple users/applications accessing same DB**
---------------------------------------------------------------------------------
+
+Multiple users/applications accessing the same database.
+
+---
+
 ### 🔹 Types
-1. Centralized DB
-    •   One server
-2. Distributed DB
-    •   Data spread across locations
-3. Cloud DB
-    •   Shared over internet (AWS, GCP)
 
-----------------------------------------------------------------------------------
+1. **Centralized DB**
+
+   * Single server
+
+2. **Distributed DB**
+
+   * Data spread across multiple locations
+
+3. **Cloud DB**
+
+   * Shared over internet (AWS, GCP)
+
+---
+
 ### 🔹 Problems
--   Concurrency issues
--   Data consistency
--   Deadlocks
 
---- 
+* Concurrency issues
+* Data consistency challenges
+* Deadlocks
+
+---
 
 ## 🧾 6. SQL vs NoSQL
 
 ### 🔹 SQL (Relational)
--   Structured tables
--   Fixed schema
 
-#### Examples:
--   **MySQL**
--   **PostgreSQL**
+* Structured tables
+* Fixed schema
 
-**✔** Strong consistency
-**✔** ACID properties
-----------------------------------------------------------------------------------------------
+**Examples:**
+
+* MySQL
+* PostgreSQL
+
+✔ Strong consistency
+✔ ACID properties
+
+---
+
 ### 🔹 NoSQL (Non-Relational)
--   Flexible schema
--   JSON-like data
 
-#### Examples:
+* Flexible schema
+* JSON-like data
 
--   MongoDB
--   Cassandra
+**Examples:**
 
-**✔** Scalable
-**✔** Fast for large data
+* MongoDB
+* Cassandra
 
-![alt text](image.png)
+✔ Scalable
+✔ Handles large data efficiently
+
+---
 
 ## ⚖️ 7. Consistent Hashing
 
 ### 🔹 What is it?
-**Technique to distribute data across servers efficiently**
-----------------------------------------------------------------
+
+Technique to distribute data across servers efficiently.
+
+---
+
 ### 🔹 Problem it solves
-**When servers are added/removed:**
--   Normal hashing → massive reshuffling ❌
--   Consistent hashing → minimal changes ✅
---------------------------------------------------------------------
+
+When servers are added/removed:
+
+* Normal hashing → massive reshuffling ❌
+* Consistent hashing → minimal redistribution ✅
+
+---
+
 ### 🔹 How it works
--   Imagine a circular ring
--   Servers + data mapped on ring
--   Data goes to nearest server clockwise
------------------------------------------------------------------------
+
+* Data and servers mapped on a circular ring
+* Data assigned to nearest server clockwise
+
+---
+
 ### 🔹 Benefits
 
-**✔** Load balancing
-**✔** Fault tolerance
-**✔** Scalable systems
+* ✔ Load balancing
+* ✔ Fault tolerance
+* ✔ Scalability
 
-#### 📌 Used in:
+**📌 Used in:**
 
--   Distributed caches
--   CDNs
--   Databases (e.g., Cassandra)
+* Distributed caches
+* CDNs
+* Databases (e.g., Cassandra)
 
 ---
 
 ## ⚡ Final Revision (Quick Recall)
 
--   DNS → domain → IP
--   3-way handshake → reliable connection
--   Indexing → faster queries
--   Thrashing → too many page faults
--   DB sharing → multiple users, concurrency issues
--   SQL vs NoSQL → structure vs flexibility
--   Consistent hashing → scalable distribution
+* DNS → Domain to IP
+* 3-way handshake → Reliable connection
+* Indexing → Faster queries
+* Thrashing → Excessive paging
+* DB sharing → Multi-user access issues
+* SQL vs NoSQL → Structure vs flexibility
+* Consistent hashing → Efficient scaling
+
+---
