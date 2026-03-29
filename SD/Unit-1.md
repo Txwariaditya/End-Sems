@@ -123,9 +123,9 @@ Ensures all users see same data.
 
 * Single unified codebase
 
-✔ Simple
-✔ Easy to deploy
-❌ Hard to scale
+* ✔ Simple
+* ✔ Easy to deploy
+* ❌ Hard to scale
 
 ---
 
@@ -133,9 +133,9 @@ Ensures all users see same data.
 
 * System split into small independent services
 
-✔ Scalable
-✔ Flexible
-❌ Complex
+* ✔ Scalable
+* ✔ Flexible
+* ❌ Complex
 
 ---
 
