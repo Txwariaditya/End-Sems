@@ -17,7 +17,7 @@
 
 ### ✅ One-Hot Encoding
     Converts categories into binary columns
-    
+
 ![alt text](image-4.png)
 
 ✔ Avoids false ordering
@@ -63,7 +63,7 @@ Jaipur	20
 
 Used to describe data distribution:
 
-    **Min, Q1, Median, Q3, Max**
+    Min, Q1, Median, Q3, Max
 
 **Components:**
 
