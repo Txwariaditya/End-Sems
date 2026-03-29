@@ -17,9 +17,9 @@
 
 ### ✅ One-Hot Encoding
     Converts categories into binary columns
-Color	Red     Blue     Green
+Color___Red_____Blue______Green
 ----------------------------------
-Red	     1       0          0
+Red______1________0_________0
 
 ✔ Avoids false ordering
 ❌ Increases dimensionality
