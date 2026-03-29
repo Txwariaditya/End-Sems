@@ -1,6 +1,6 @@
 # 📘Full Question Bank Q1–Q200:
 
----
+
 
 ## Principles of Network Applications – Client-Server & Peer-to-Peer (Q1–25:
 
@@ -204,7 +204,7 @@
 * d: Clients become servers
 #### **Answer:** b
 
----
+
 
 ## Quality of Service (QoS: (Q26–40:
 
@@ -329,7 +329,7 @@
 #### **Answer:** b
 
 
----
+
 
 ## Web & HTTP Q41–80:
 
@@ -341,7 +341,7 @@
 * d: 443
 #### **Answer:** c
 
----
+
 
 ### Q42. In non-persistent HTTP, how many RTTs are required?
 
@@ -351,7 +351,7 @@
 * d: 4
 #### **Answer:** b
 
----
+
 
 ### Q43. Which HTTP version introduced persistent connections by default?
 
@@ -361,7 +361,7 @@
 * d: HTTP/2.0
 #### **Answer:** c
 
----
+
 
 ### Q44. Advantage of persistent HTTP?
 
@@ -371,7 +371,7 @@
 * d: Less memory
 #### **Answer:** b
 
----
+
 
 ### Q45. HTTP method to test server existence?
 
@@ -381,7 +381,7 @@
 * d: PUT
 #### **Answer:** c
 
----
+
 
 ### Q46. Purpose of POST?
 
@@ -391,7 +391,7 @@
 * d: TCP connection
 #### **Answer:** b
 
----
+
 
 ### Q47. HTTP status "OK"?
 
@@ -401,7 +401,7 @@
 * d: 404
 #### **Answer:** a
 
----
+
 
 ### Q48. 404 belongs to?
 
@@ -411,7 +411,7 @@
 * d: 4xx
 #### **Answer:** d
 
----
+
 
 ### Q49. Status 301?
 
@@ -421,7 +421,7 @@
 * d: Server Error
 #### **Answer:** b
 
----
+
 
 ### Q50. Unsupported HTTP version?
 
@@ -431,7 +431,7 @@
 * d: 505
 #### **Answer:** d
 
----
+
 
 ### Q51. Cookie management component?
 
@@ -441,7 +441,7 @@
 * d: DNS
 #### **Answer:** b
 
----
+
 
 ### Q52. Cookie stored where?
 
@@ -451,7 +451,7 @@
 * d: DNS cache
 #### **Answer:** c
 
----
+
 
 ### Q53. Cookie use?
 
@@ -461,7 +461,7 @@
 * d: DNS
 #### **Answer:** b
 
----
+
 
 ### Q54. Web cache function?
 
@@ -471,7 +471,7 @@
 * d: CPU speed
 #### **Answer:** a
 
----
+
 
 ### Q55. Cache miss?
 
@@ -481,7 +481,7 @@
 * d: Blank
 #### **Answer:** c
 
----
+
 
 ### Q56. Outdated cache issue?
 
@@ -491,7 +491,7 @@
 * d: DOS
 #### **Answer:** c
 
----
+
 
 ### Q57. Cache invalidation?
 
@@ -501,7 +501,7 @@
 * d: Attack
 #### **Answer:** b
 
----
+
 
 ### Q58. HTTP/1.1 feature?
 
@@ -511,7 +511,7 @@
 * d: Caching
 #### **Answer:** b
 
----
+
 
 ### Q59. TCP connections for 5 images?
 
@@ -521,7 +521,7 @@
 * d: 10
 #### **Answer:** c
 
----
+
 
 ### Q60. Upload file method?
 
@@ -531,7 +531,7 @@
 * d: DELETE
 #### **Answer:** c
 
----
+
 
 ### Q61. HTTP request excludes?
 
@@ -541,7 +541,7 @@
 * d: Status code
 #### **Answer:** d
 
----
+
 
 ### Q62. Host header purpose?
 
@@ -551,7 +551,7 @@
 * d: Language
 #### **Answer:** b
 
----
+
 
 ### Q63. Conditional GET?
 
@@ -561,7 +561,7 @@
 * d: Language
 #### **Answer:** a
 
----
+
 
 ### Q64. HTTP nature?
 
@@ -571,7 +571,7 @@
 * d: Guaranteed
 #### **Answer:** b
 
----
+
 
 ### Q65. HTTP/2 features?
 
@@ -581,7 +581,7 @@
 * d: HTTP/3
 #### **Answer:** c
 
----
+
 
 ### Q66. HTTP/3 uses?
 
@@ -591,7 +591,7 @@
 * d: IP
 #### **Answer:** c
 
----
+
 
 ### Q67. Cache warming?
 
@@ -601,7 +601,7 @@
 * d: Coherence
 #### **Answer:** c
 
----
+
 
 ### Q68. Cache DOS?
 
@@ -611,7 +611,7 @@
 * d: Miss
 #### **Answer:** b
 
----
+
 
 ### Q69. Pipelining vs Multiplexing?
 
@@ -621,7 +621,7 @@
 * d: Multi TCP
 #### **Answer:** b
 
----
+
 
 ### Q70. User-Agent?
 
@@ -631,7 +631,7 @@
 * d: Proxy
 #### **Answer:** b
 
----
+
 
 ### Q71. If-Modified-Since?
 
@@ -641,7 +641,7 @@
 * d: Sync
 #### **Answer:** a
 
----
+
 
 ### Q72. Non-persistent connection?
 
@@ -651,7 +651,7 @@
 * d: Auto next
 #### **Answer:** b
 
----
+
 
 ### Q73. Persistent HTTP benefit?
 
@@ -661,7 +661,7 @@
 * d: Faster always
 #### **Answer:** b
 
----
+
 
 ### Q74. Location header?
 
@@ -671,7 +671,7 @@
 * d: 500
 #### **Answer:** b
 
----
+
 
 ### Q75. Host field?
 
@@ -681,7 +681,7 @@
 * d: Referer
 #### **Answer:** c
 
----
+
 
 ### Q76. Forward proxy?
 
@@ -691,7 +691,7 @@
 * d: Firewall
 #### **Answer:** c
 
----
+
 
 ### Q77. Referer header?
 
@@ -701,7 +701,7 @@
 * d: IP
 #### **Answer:** a
 
----
+
 
 ### Q78. 5xx example?
 
@@ -711,7 +711,7 @@
 * d: 502
 #### **Answer:** c
 
----
+
 
 ### Q79. End of response?
 
@@ -721,7 +721,7 @@
 * d: Content-Length
 #### **Answer:** d
 
----
+
 
 ### Q80. Server push?
 
@@ -731,11 +731,11 @@
 * d: Upload
 #### **Answer:** b
 
----
+
 
 # 📘 QB.md — Continued (Q81–Q120:
 
----
+
 
 ## Email, SMTP, IMAP, POP3 (Q81–110:
 
@@ -747,7 +747,7 @@
 * d: HTTP
 #### **Answer:** c
 
----
+
 
 ### Q82. SMTP port (unencrypted:?
 
@@ -757,7 +757,7 @@
 * d: 587
 #### **Answer:** a
 
----
+
 
 ### Q83. Download & remove emails?
 
@@ -767,7 +767,7 @@
 * d: HTTP
 #### **Answer:** c
 
----
+
 
 ### Q84. Multi-device sync protocol?
 
@@ -777,7 +777,7 @@
 * d: FTP
 #### **Answer:** b
 
----
+
 
 ### Q85. POP3 default behavior?
 
@@ -787,7 +787,7 @@
 * d: Archive
 #### **Answer:** b
 
----
+
 
 ### Q86. Secure POP3 port?
 
@@ -797,7 +797,7 @@
 * d: 995
 #### **Answer:** d
 
----
+
 
 ### Q87. SMTP function?
 
@@ -807,7 +807,7 @@
 * d: Webmail
 #### **Answer:** c
 
----
+
 
 ### Q88. Secure IMAP port?
 
@@ -817,7 +817,7 @@
 * d: 995
 #### **Answer:** c
 
----
+
 
 ### Q89. SMTP with STARTTLS port?
 
@@ -827,7 +827,7 @@
 * d: 587
 #### **Answer:** d
 
----
+
 
 ### Q90. IMAP delete sync?
 
@@ -837,7 +837,7 @@
 * d: Re-download
 #### **Answer:** b
 
----
+
 
 ### Q91. Send + receive email?
 
@@ -847,7 +847,7 @@
 * d: FTP + SMTP
 #### **Answer:** a
 
----
+
 
 ### Q92. SSL/TLS purpose?
 
@@ -857,7 +857,7 @@
 * d: Storage
 #### **Answer:** c
 
----
+
 
 ### Q93. Block port 25 reason?
 
@@ -867,7 +867,7 @@
 * d: Speed
 #### **Answer:** c
 
----
+
 
 ### Q94. POP3 port?
 
@@ -877,7 +877,7 @@
 * d: 993
 #### **Answer:** b
 
----
+
 
 ### Q95. IMAP full form?
 
@@ -887,7 +887,7 @@
 * d: Internal Message
 #### **Answer:** a
 
----
+
 
 ### Q96. Webmail protocol combo?
 
@@ -897,7 +897,7 @@
 * d: HTTP + IMAP/POP3
 #### **Answer:** d
 
----
+
 
 ### Q97. SMTP is ___ protocol?
 
@@ -907,7 +907,7 @@
 * d: secure
 #### **Answer:** b
 
----
+
 
 ### Q98. MTA role?
 
@@ -917,7 +917,7 @@
 * d: Scanner
 #### **Answer:** b
 
----
+
 
 ### Q99. MUA?
 
@@ -927,7 +927,7 @@
 * d: Transfer
 #### **Answer:** c
 
----
+
 
 ### Q100. Folder management?
 
@@ -937,7 +937,7 @@
 * d: MIME
 #### **Answer:** c
 
----
+
 
 ### Q101. MIME role?
 
@@ -947,7 +947,7 @@
 * d: Encrypt
 #### **Answer:** b
 
----
+
 
 ### Q102. Local + offline access?
 
@@ -957,7 +957,7 @@
 * d: HTTP
 #### **Answer:** a
 
----
+
 
 ### Q103. IMAP behavior?
 
@@ -967,7 +967,7 @@
 * d: Archive
 #### **Answer:** b
 
----
+
 
 ### Q104. Port 465?
 
@@ -977,7 +977,7 @@
 * d: HTTPS
 #### **Answer:** c
 
----
+
 
 ### Q105. POP3 multi-device?
 
@@ -987,7 +987,7 @@
 * d: Exact copy
 #### **Answer:** b
 
----
+
 
 ### Q106. IMAP IDLE?
 
@@ -997,7 +997,7 @@
 * d: Summary
 #### **Answer:** b
 
----
+
 
 ### Q107. POP3 drawback?
 
@@ -1007,7 +1007,7 @@
 * d: Needs internet
 #### **Answer:** c
 
----
+
 
 ### Q108. SMTP usage path?
 
@@ -1017,7 +1017,7 @@
 * d: Full path
 #### **Answer:** a
 
----
+
 
 ### Q109. MX record?
 
@@ -1027,7 +1027,7 @@
 * d: Alias
 #### **Answer:** c
 
----
+
 
 ### Q110. Only local storage?
 
@@ -1037,7 +1037,7 @@
 * d: MAPI
 #### **Answer:** b
 
----
+
 
 ## DNS (Domain Name System: (Q111–120:
 
@@ -1049,7 +1049,7 @@
 * d: Security
 #### **Answer:** b
 
----
+
 
 ### Q112. Resource record?
 
@@ -1059,7 +1059,7 @@
 * d: Log
 #### **Answer:** c
 
----
+
 
 ### Q113. IPv4 mapping?
 
@@ -1069,7 +1069,7 @@
 * d: CNAME
 #### **Answer:** c
 
----
+
 
 ### Q114. Alias record?
 
@@ -1079,7 +1079,7 @@
 * d: TXT
 #### **Answer:** b
 
----
+
 
 ### Q115. MX priority?
 
@@ -1089,7 +1089,7 @@
 * d: Version
 #### **Answer:** b
 
----
+
 
 ### Q116. PTR record?
 
@@ -1099,7 +1099,7 @@
 * d: NS
 #### **Answer:** c
 
----
+
 
 ### Q117. DNS server type?
 
@@ -1109,7 +1109,7 @@
 * d: Proxy
 #### **Answer:** c
 
----
+
 
 ### Q118. Resolver?
 
@@ -1119,7 +1119,7 @@
 * d: Encrypt
 #### **Answer:** b
 
----
+
 
 ### Q119. Recursive query?
 
@@ -1129,7 +1129,7 @@
 * d: Local
 #### **Answer:** a
 
----
+
 
 ### Q120. Iterative query?
 
@@ -1139,11 +1139,11 @@
 * d: Initial
 #### **Answer:** a
 
----
+
 
 # 📘 QB.md — Continued (Q121–Q160:
 
----
+
 
 ## DNS (Q121–150:
 
@@ -1155,7 +1155,7 @@
 * d: Backup
 #### **Answer:** b
 
----
+
 
 ### Q122. Negative caching?
 
@@ -1165,7 +1165,7 @@
 * d: DNSSEC failure
 #### **Answer:** b
 
----
+
 
 ### Q123. DNS zone?
 
@@ -1175,7 +1175,7 @@
 * d: Region
 #### **Answer:** b
 
----
+
 
 ### Q124. Master DNS server?
 
@@ -1185,7 +1185,7 @@
 * d: Recursive
 #### **Answer:** b
 
----
+
 
 ### Q125. Slave DNS server?
 
@@ -1195,7 +1195,7 @@
 * d: Cache only
 #### **Answer:** b
 
----
+
 
 ### Q126. DNS query tool?
 
@@ -1205,7 +1205,7 @@
 * d: netstat
 #### **Answer:** c
 
----
+
 
 ### Q127. Reverse DNS?
 
@@ -1215,7 +1215,7 @@
 * d: NS
 #### **Answer:** b
 
----
+
 
 ### Q128. IPv6 record?
 
@@ -1225,7 +1225,7 @@
 * d: NS
 #### **Answer:** c
 
----
+
 
 ### Q129. Static mapping file?
 
@@ -1235,7 +1235,7 @@
 * d: resolv.conf
 #### **Answer:** b
 
----
+
 
 ### Q130. SOA record?
 
@@ -1245,7 +1245,7 @@
 * d: Server list
 #### **Answer:** a
 
----
+
 
 ### Q131. Delegate subdomain?
 
@@ -1255,7 +1255,7 @@
 * d: MX
 #### **Answer:** c
 
----
+
 
 ### Q132. TTL?
 
@@ -1265,7 +1265,7 @@
 * d: Expiry
 #### **Answer:** b
 
----
+
 
 ### Q133. DNS poisoning?
 
@@ -1275,7 +1275,7 @@
 * d: Encrypt
 #### **Answer:** b
 
----
+
 
 ### Q134. DNS security?
 
@@ -1285,7 +1285,7 @@
 * d: IPsec
 #### **Answer:** c
 
----
+
 
 ### Q135. Root domain?
 
@@ -1295,7 +1295,7 @@
 * d: .
 #### **Answer:** d
 
----
+
 
 ### Q136. DNS root authority?
 
@@ -1305,7 +1305,7 @@
 * d: ITU
 #### **Answer:** c
 
----
+
 
 ### Q137. All records query?
 
@@ -1315,7 +1315,7 @@
 * d: ANY
 #### **Answer:** d
 
----
+
 
 ### Q138. DNS flags field?
 
@@ -1325,7 +1325,7 @@
 * d: Auth
 #### **Answer:** b
 
----
+
 
 ### Q139. DNS load balancing?
 
@@ -1335,7 +1335,7 @@
 * d: Special record
 #### **Answer:** a
 
----
+
 
 ### Q140. Stub resolver?
 
@@ -1345,7 +1345,7 @@
 * d: Root server
 #### **Answer:** b
 
----
+
 
 ### Q141. TXT record?
 
@@ -1355,7 +1355,7 @@
 * d: Alias
 #### **Answer:** b
 
----
+
 
 ### Q142. SPF record type?
 
@@ -1365,7 +1365,7 @@
 * d: SPF
 #### **Answer:** c
 
----
+
 
 ### Q143. Recursive uses?
 
@@ -1375,7 +1375,7 @@
 * d: Forward
 #### **Answer:** a
 
----
+
 
 ### Q144. Zone transfer?
 
@@ -1385,7 +1385,7 @@
 * d: Encrypt
 #### **Answer:** b
 
----
+
 
 ### Q145. DNS hierarchy includes?
 
@@ -1395,7 +1395,7 @@
 * d: Gateway
 #### **Answer:** a
 
----
+
 
 ### Q146. TLD example?
 
@@ -1405,7 +1405,7 @@
 * d: mail
 #### **Answer:** c
 
----
+
 
 ### Q147. Prevent poisoning?
 
@@ -1415,7 +1415,7 @@
 * d: Disable recursion
 #### **Answer:** c
 
----
+
 
 ### Q148. Name error flag?
 
@@ -1425,7 +1425,7 @@
 * d: RCODE=3
 #### **Answer:** d
 
----
+
 
 ### Q149. Authoritative server?
 
@@ -1435,7 +1435,7 @@
 * d: Only cache
 #### **Answer:** b
 
----
+
 
 ### Q150. DNS transport?
 
@@ -1445,7 +1445,7 @@
 * d: DCCP
 #### **Answer:** b
 
----
+
 
 ## P2P Applications & CDN (Q151–160:
 
@@ -1457,7 +1457,7 @@
 * d: Virus
 #### **Answer:** a
 
----
+
 
 ### Q152. Tracker role?
 
@@ -1467,7 +1467,7 @@
 * d: Encrypt
 #### **Answer:** b
 
----
+
 
 ### Q153. File pieces?
 
@@ -1477,7 +1477,7 @@
 * d: Blocks
 #### **Answer:** c
 
----
+
 
 ### Q154. Swarm?
 
@@ -1487,7 +1487,7 @@
 * d: Attack
 #### **Answer:** b
 
----
+
 
 ### Q155. Seeder?
 
@@ -1497,7 +1497,7 @@
 * d: Provider
 #### **Answer:** c
 
----
+
 
 ### Q156. Streaming challenge?
 
@@ -1507,7 +1507,7 @@
 * d: No compression
 #### **Answer:** b
 
----
+
 
 ### Q157. CDN full form?
 
@@ -1517,7 +1517,7 @@
 * d: Crypto Network
 #### **Answer:** a
 
----
+
 
 ### Q158. CDN purpose?
 
@@ -1527,7 +1527,7 @@
 * d: DNS
 #### **Answer:** b
 
----
+
 
 ### Q159. CDN provider?
 
@@ -1537,7 +1537,7 @@
 * d: Internal
 #### **Answer:** c
 
----
+
 
 ### Q160. Enter deep CDN?
 
@@ -1547,11 +1547,11 @@
 * d: P2P
 #### **Answer:** b
 
----
+
 
 # 📘 QB.md — Final (Q161–Q200:
 
----
+
 
 ## P2P Applications & CDN (Q161–180:
 
@@ -1563,7 +1563,7 @@
 * d: Satellite
 #### **Answer:** b
 
----
+
 
 ### Q162. DNS role in CDN?
 
@@ -1573,7 +1573,7 @@
 * d: Manage P2P
 #### **Answer:** b
 
----
+
 
 ### Q163. CDN server selection factors?
 
@@ -1583,7 +1583,7 @@
 * d: Time
 #### **Answer:** a
 
----
+
 
 ### Q164. DASH?
 
@@ -1593,7 +1593,7 @@
 * d: Algorithm
 #### **Answer:** b
 
----
+
 
 ### Q165. MPD file?
 
@@ -1603,7 +1603,7 @@
 * d: Keys
 #### **Answer:** b
 
----
+
 
 ### Q166. Adaptive streaming advantage?
 
@@ -1613,7 +1613,7 @@
 * d: Only 4K
 #### **Answer:** b
 
----
+
 
 ### Q167. Rarest-first strategy?
 
@@ -1623,7 +1623,7 @@
 * d: Fastest peer
 #### **Answer:** c
 
----
+
 
 ### Q168. Tit-for-tat?
 
@@ -1633,7 +1633,7 @@
 * d: Report
 #### **Answer:** b
 
----
+
 
 ### Q169. CDN advantage?
 
@@ -1643,7 +1643,7 @@
 * d: Simplify DNS
 #### **Answer:** b
 
----
+
 
 ### Q170. CDN solves?
 
@@ -1653,7 +1653,7 @@
 * d: CPU
 #### **Answer:** a
 
----
+
 
 ### Q171. CDN routing step?
 
@@ -1663,7 +1663,7 @@
 * d: Cache warming
 #### **Answer:** c
 
----
+
 
 ### Q172. Private CDN?
 
@@ -1673,7 +1673,7 @@
 * d: P2P
 #### **Answer:** b
 
----
+
 
 ### Q173. Enter-deep drawback?
 
@@ -1683,7 +1683,7 @@
 * d: Cost
 #### **Answer:** c
 
----
+
 
 ### Q174. Simplest CDN selection?
 
@@ -1693,7 +1693,7 @@
 * d: ISP
 #### **Answer:** c
 
----
+
 
 ### Q175. Scalability meaning?
 
@@ -1703,7 +1703,7 @@
 * d: Codec
 #### **Answer:** b
 
----
+
 
 ### Q176. Inefficient for streaming?
 
@@ -1713,7 +1713,7 @@
 * d: ICMP
 #### **Answer:** c
 
----
+
 
 ### Q177. QUIC built on?
 
@@ -1723,7 +1723,7 @@
 * d: SCTP
 #### **Answer:** b
 
----
+
 
 ### Q178. Churn?
 
@@ -1733,7 +1733,7 @@
 * d: Speed
 #### **Answer:** b
 
----
+
 
 ### Q179. Live vs on-demand?
 
@@ -1743,7 +1743,7 @@
 * d: Same
 #### **Answer:** a
 
----
+
 
 ### Q180. Edge server?
 
@@ -1753,7 +1753,7 @@
 * d: DNS
 #### **Answer:** b
 
----
+
 
 ## Socket Programming (Q181–200:
 
@@ -1765,7 +1765,7 @@
 * d: Protocol
 #### **Answer:** b
 
----
+
 
 ### Q182. Socket connects to?
 
@@ -1775,7 +1775,7 @@
 * d: Network
 #### **Answer:** c
 
----
+
 
 ### Q183. Protocol choice?
 
@@ -1785,7 +1785,7 @@
 * d: SMTP/POP3
 #### **Answer:** b
 
----
+
 
 ### Q184. UDP service?
 
@@ -1795,7 +1795,7 @@
 * d: Ordered
 #### **Answer:** b
 
----
+
 
 ### Q185. TCP service?
 
@@ -1805,7 +1805,7 @@
 * d: Multicast
 #### **Answer:** a
 
----
+
 
 ### Q186. Server accept connection?
 
@@ -1815,7 +1815,7 @@
 * d: connect(:
 #### **Answer:** c
 
----
+
 
 ### Q187. First client call?
 
@@ -1825,7 +1825,7 @@
 * d: bind(:
 #### **Answer:** c
 
----
+
 
 ### Q188. UDP accept?
 
@@ -1835,7 +1835,7 @@
 * d: udp_accept
 #### **Answer:** b
 
----
+
 
 ### Q189. TCP connection info?
 
@@ -1845,7 +1845,7 @@
 * d: Mask
 #### **Answer:** b
 
----
+
 
 ### Q190. Port number?
 
@@ -1855,7 +1855,7 @@
 * d: Encrypt
 #### **Answer:** a
 
----
+
 
 ### Q191. Bind function?
 
@@ -1865,7 +1865,7 @@
 * d: recv
 #### **Answer:** c
 
----
+
 
 ### Q192. Connect function?
 
@@ -1875,7 +1875,7 @@
 * d: connect
 #### **Answer:** d
 
----
+
 
 ### Q193. UDP send?
 
@@ -1885,7 +1885,7 @@
 * d: send
 #### **Answer:** b
 
----
+
 
 ### Q194. recvfrom advantage?
 
@@ -1895,7 +1895,7 @@
 * d: Length
 #### **Answer:** c
 
----
+
 
 ### Q195. accept(: returns?
 
@@ -1905,7 +1905,7 @@
 * d: Bytes
 #### **Answer:** b
 
----
+
 
 ### Q196. htonl(:/htons(:?
 
@@ -1915,7 +1915,7 @@
 * d: Hash
 #### **Answer:** c
 
----
+
 
 ### Q197. close(:?
 
@@ -1925,7 +1925,7 @@
 * d: Flush
 #### **Answer:** b
 
----
+
 
 ### Q198. Address structure?
 
@@ -1935,7 +1935,7 @@
 * d: in_addr
 #### **Answer:** c
 
----
+
 
 ### Q199. Multi-client handling?
 
@@ -1945,7 +1945,7 @@
 * d: UDP
 #### **Answer:** c
 
----
+
 
 ### Q200. TCP vs UDP difference?
 
