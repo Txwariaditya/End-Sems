@@ -1,155 +1,197 @@
+# 📊 MLF — Data Processing & Basics
+
+---
+
 ## 🔹 1. Types of Encoding
 
 ### ✅ Nominal Encoding
-    Used for categorical data with no order
-    Example: Color → {Red, Blue, Green}
-    Usually done via One-Hot Encoding
+
+Used for categorical data with **no order**.
+
+**Example:**
+Color → {Red, Blue, Green}
+
+* Usually implemented using **One-Hot Encoding**
 
 ---
 
 ### ✅ Ordinal Encoding
-    Used when order matters
-    Example: Low < Medium < High
-    Assign numbers:
-    Low = 1, Medium = 2, High = 3
+
+Used when **order matters**.
+
+**Example:**
+Low < Medium < High
+
+**Encoding:**
+
+* Low = 1
+* Medium = 2
+* High = 3
 
 ---
 
 ### ✅ One-Hot Encoding
-    Converts categories into binary columns
 
-![alt text](image-4.png)
+Converts categories into **binary columns**.
 
-✔ Avoids false ordering
-❌ Increases dimensionality
+![One Hot Encoding](image-4.png)
+
+**Pros:**
+
+* ✔ Avoids false ordering
+
+**Cons:**
+
+* ❌ Increases dimensionality
 
 ---
 
 ### ✅ Label Encoding
-    Assigns integer value to each category
-    Example:
-    Dog = 0, Cat = 1, Cow = 2
 
-**⚠ Problem: Model may assume order (0 < 1 < 2)**
+Assigns integer values to categories.
+
+**Example:**
+
+* Dog = 0
+* Cat = 1
+* Cow = 2
+
+**⚠ Problem:**
+Model may assume order (0 < 1 < 2)
 
 ---
 
 ### ✅ Frequency Encoding
-    Replace category with its frequency/count
-City	Count
----------------
-Delhi	50
-Jaipur	20
+
+Replaces category with its frequency/count.
+
+| City   | Count |
+| ------ | ----- |
+| Delhi  | 50    |
+| Jaipur | 20    |
 
 **✔ Useful for large datasets**
 
 ---
 
 ## 🔹 2. SMOTE Technique
-**👉 Full Form: Synthetic Minority Oversampling Technique**
 
-    Used for imbalanced datasets
-    Creates synthetic samples for minority class
-**💡 How it works:**
+**Full Form:** Synthetic Minority Oversampling Technique
 
-    Pick minority sample
-    Find nearest neighbors
-    Create synthetic points between them
+**Purpose:**
 
-**✔ Avoids overfitting vs simple duplication**
-**✔ Improves model performance**
+* Used for **imbalanced datasets**
+* Creates synthetic samples for minority class
+
+**How it works:**
+
+1. Pick a minority class sample
+2. Find nearest neighbors
+3. Generate synthetic points between them
+
+**Advantages:**
+
+* ✔ Avoids overfitting vs duplication
+* ✔ Improves model performance
+
+---
 
 ## 🔹 3. Five Number Summary
 
-Used to describe data distribution:
+Describes data distribution:
 
-    Min, Q1, Median, Q3, Max
+* Minimum
+* Q1 (25th percentile)
+* Median (Q2, 50th percentile)
+* Q3 (75th percentile)
+* Maximum
 
-**Components:**
+**Uses:**
 
-    Min → smallest value
-    Q1 → 25th percentile
-    Median (Q2) → 50th percentile
-    Q3 → 75th percentile
-    Max → largest value
-
-**✔ Used in box plots**
-**✔ Helps detect outliers**
+* ✔ Box plots
+* ✔ Outlier detection
 
 ---
 
 ## 🔹 4. Variable & Random Variable
 
 ### ✅ Variable
-    Any measurable feature
-    Example: Age, Height, Marks
 
---- 
+Any measurable feature.
 
-✅ Random Variable
+**Examples:**
 
-    Variable whose value depends on chance
+* Age
+* Height
+* Marks
+
+---
+
+### ✅ Random Variable
+
+A variable whose value depends on chance.
 
 **Types:**
 
-    Discrete → Countable (dice roll)
-    Continuous → Range (height, weight)
+* **Discrete** → Countable (e.g., dice roll)
+* **Continuous** → Range (e.g., height, weight)
 
 ---
 
 ## 🔹 5. Types of Data
 
-### 🔢 Numerical Data
-    Quantitative values
+### 🔢 Numerical Data (Quantitative)
 
-**Types:**
-
-    Discrete → integers (no. of students)
-    Continuous → real values (temperature)
+* **Discrete:** Countable (number of students)
+* **Continuous:** Real values (temperature)
 
 ---
 
-### 🔤 Categorical Data
-    Qualitative
+### 🔤 Categorical Data (Qualitative)
 
-**Types:**
-
-    Nominal → no order (color)
-    Ordinal → ordered (rank)
+* **Nominal:** No order (color)
+* **Ordinal:** Ordered (rank)
 
 ---
 
 ## 🔹 6. Scikit-Learn Tools
 
-## ✅ StandardScaler
-Standardizes data
+### ✅ StandardScaler
 
-![alt text](image-1.png)
+Standardizes features (mean = 0, variance = 1)
+
+![Standard Scaler](image-1.png)
 
 ---
 
 ### ✅ OneHotEncoder
-Converts categorical → binary columns
+
+Converts categorical variables into binary columns
 
 ---
 
 ### ✅ SimpleImputer
-    Fills missing values
+
+Fills missing values.
 
 **Strategies:**
-    mean
-    median
-    most_frequent
+
+* Mean
+* Median
+* Most frequent
 
 ---
 
 ### ✅ Linear Regression
-    Predicts continuous output
 
-![alt text](image-2.png)
+Predicts continuous output.
 
-✔ Supervised learning
-✔ Finds best-fit line
+![Linear Regression](image-2.png)
+
+**Key Points:**
+
+* ✔ Supervised learning
+* ✔ Finds best-fit line
 
 ---
 
@@ -157,18 +199,23 @@ Converts categorical → binary columns
 
 ### ✅ Z-Score Method
 
-![alt text](image-3.png)
+![Z Score](image-3.png)
+
+* Measures how far a value is from mean
+* Sensitive to extreme values
 
 ---
 
 ### ✅ IQR Method
 
-𝐼𝑄𝑅 = Q3 - Q1
+```id="iqr02"
+IQR = Q3 - Q1
+```
 
-**Outlier range:**
+**Outlier Range:**
 
-    Lower = Q1 − 1.5 × IQR
-    Upper = Q3 + 1.5 × IQR
+* Lower Bound = Q1 − 1.5 × IQR
+* Upper Bound = Q3 + 1.5 × IQR
 
 **✔ More robust than Z-score**
 
@@ -176,13 +223,33 @@ Converts categorical → binary columns
 
 ## 🔹 8. Histogram (Positive Skew)
 
-### ✅ Positive Skew (Right Skewed)
+### ✅ Positive Skew (Right-Skewed)
 
-![alt text](image-5.png)
+![Positive Skew](image-5.png)
 
-Tail extends to the right
-Most values are small
-#### Relation:
-**Mean > Median > Mode**
+* Tail extends to the right
+* Most values are small
 
-**✔ Example: Income distribution**
+**Relation:**
+
+* Mean > Median > Mode
+
+**Example:**
+
+* Income distribution
+
+---
+
+## ⚡ Quick Revision
+
+* Nominal vs Ordinal → No order vs ordered
+* One-hot → avoids ordering issue
+* SMOTE → handles imbalance
+* Five-number summary → distribution insight
+* Random variable → depends on probability
+* Numerical vs categorical → quantitative vs qualitative
+* StandardScaler → normalization
+* IQR → best for outlier detection
+* Positive skew → Mean > Median > Mode
+
+---
