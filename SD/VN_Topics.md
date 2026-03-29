@@ -5,8 +5,11 @@
 ### 🔹 Step 1: DNS Resolution
 You type: google.com
 Browser asks: “What is the IP?”
+
 DNS (Domain Name System) translates:
-    • google.com → 142.250.xxx.xxx
+
+• google.com → 142.250.xxx.xxx
+
 **📌 Think: DNS = Internet’s phonebook**
 
 ---
