@@ -25,8 +25,8 @@ You type: google.com
 3. **ACK** → Client: “Let’s go”
 
 **📌 Ensures:**
--Reliability
--Synchronization
+1. Reliability
+2. Synchronization
 
 ---
 
