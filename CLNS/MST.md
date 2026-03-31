@@ -11,7 +11,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 * **What** actions they can perform
 * **Which** resources they can access
 
-
+ 
 
 ## 🧠 Core Components of IAM
 
@@ -24,7 +24,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 
 * Aditya → IAM User with login access
 
-
+ 
 
 ### 2. Groups
 
@@ -35,7 +35,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 
 * "Developers" group → Read-only access to database
 
-
+ 
 
 ### 3. Roles
 
@@ -46,38 +46,38 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 
 * EC2 instance accessing S3 using IAM Role
 
-
+ 
 
 ### 4. Policies
 
 * JSON documents defining permissions
 * Attached to users, groups, or roles
 
-
+ 
 
 ## 🔑 IAM Key Concepts
 
 ### ✔ Authentication vs Authorization
 
 | Type           | Meaning          |
-| -- | - |
+|  -- |  - |
 | Authentication | Who are you?     |
 | Authorization  | What can you do? |
 
-
+ 
 
 ### ✔ Principle of Least Privilege
 
 * Give **minimum required permissions**
 * Reduces security risks
 
-
+ 
 
 ### ✔ Multi-Factor Authentication (MFA)
 
 * Extra layer of security (OTP, authenticator app)
 
-
+ 
 
 ### ✔ Access Keys
 
@@ -87,7 +87,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
   * Access Key ID
   * Secret Access Key
 
-
+ 
 
 ## 🔥 IAM Best Practices
 
@@ -97,7 +97,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 * Use roles instead of hardcoding credentials
 * Follow least privilege principle
 
-
+ 
 
 # 📜 2. IAM Policies
 
@@ -105,7 +105,7 @@ IAM is a service that allows you to **securely control access** to cloud resourc
 
 Policies are **JSON-based permission documents** that define what actions are allowed or denied.
 
-
+ 
 
 ## 🧾 Structure of a Policy
 
@@ -122,7 +122,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 }
 ```
 
-
+ 
 
 ## 🧠 Policy Elements
 
@@ -131,7 +131,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 * `Allow` → Permission granted
 * `Deny` → Permission blocked
 
-
+ 
 
 ### 2. Action
 
@@ -141,7 +141,7 @@ Policies are **JSON-based permission documents** that define what actions are al
   * `s3:GetObject`
   * `ec2:StartInstances`
 
-
+ 
 
 ### 3. Resource
 
@@ -151,7 +151,7 @@ Policies are **JSON-based permission documents** that define what actions are al
   * S3 bucket
   * EC2 instance
 
-
+ 
 
 ### 4. Condition (Optional)
 
@@ -167,7 +167,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 }
 ```
 
-
+ 
 
 ## 🔄 Types of Policies
 
@@ -176,14 +176,14 @@ Policies are **JSON-based permission documents** that define what actions are al
 * Predefined or reusable
 * Easier to manage
 
-
+ 
 
 ### 2. Inline Policies
 
 * Attached directly to one entity
 * Not reusable
 
-
+ 
 
 ## ⚖️ Policy Evaluation Logic
 
@@ -191,7 +191,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 2. If explicitly allowed → Allow
 3. If explicitly denied → Deny (overrides allow)
 
-
+ 
 
 ## 🔐 Example Scenario
 
@@ -211,7 +211,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 "s3:DeleteObject"
 ```
 
-
+ 
 
 # 🗄️ 3. RDS (Relational Database Service)
 
@@ -219,7 +219,7 @@ Policies are **JSON-based permission documents** that define what actions are al
 
 RDS is a managed service that allows you to **set up, operate, and scale relational databases** in the cloud.
 
-
+ 
 
 ## 🧠 Key Features
 
@@ -231,27 +231,27 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
   * Patching
   * Backups
 
-
+ 
 
 ### ✔ Automated Backups
 
 * Daily backups + transaction logs
 
-
+ 
 
 ### ✔ Scalability
 
 * Vertical scaling (increase CPU/RAM)
 * Read replicas for scaling reads
 
-
+ 
 
 ### ✔ High Availability (Multi-AZ)
 
 * Data replicated across availability zones
 * Automatic failover
 
-
+ 
 
 ## 🧾 Supported Databases
 
@@ -261,7 +261,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Oracle
 * SQL Server
 
-
+ 
 
 ## 🔧 RDS Components
 
@@ -269,25 +269,25 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 
 * Actual database server
 
-
+ 
 
 ### 2. DB Engine
 
 * Type of database (MySQL, PostgreSQL)
 
-
+ 
 
 ### 3. Storage
 
 * SSD-backed storage
 
-
+ 
 
 ### 4. Endpoint
 
 * URL to connect to database
 
-
+ 
 
 ## 🔐 Security in RDS
 
@@ -295,7 +295,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Security groups (firewall)
 * Encryption at rest and in transit
 
-
+ 
 
 ## ⚙️ RDS Deployment Types
 
@@ -305,20 +305,20 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Lower cost
 * No failover
 
-
+ 
 
 ### 2. Multi-AZ
 
 * Primary + standby instance
 * Automatic failover
 
-
+ 
 
 ### 3. Read Replicas
 
 * Copies of DB for read scaling
 
-
+ 
 
 ## 🔄 Backup Types
 
@@ -330,7 +330,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 
 * Stored until deleted
 
-
+ 
 
 ## ⚡ Example Workflow
 
@@ -340,7 +340,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 4. Connect using endpoint
 5. Run queries
 
-
+ 
 
 ## 🚀 Advantages of RDS
 
@@ -350,7 +350,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Secure
 * Cost-efficient
 
-
+ 
 
 ## ⚠️ Limitations
 
@@ -358,7 +358,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Costs increase with scaling
 * Limited OS-level access
 
-
+ 
 
 # 🧩 Quick Revision Summary
 
@@ -377,7 +377,7 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Managed relational DB
 * Scalable, secure, automated
 
-
+ 
 
 # 🎯 Exam-Oriented Key Points
 
@@ -388,6 +388,6 @@ RDS is a managed service that allows you to **set up, operate, and scale relatio
 * Deny overrides Allow
 * Multi-AZ ensures high availability
 
-
+ 
 
 ✅ **End of MST Notes**
